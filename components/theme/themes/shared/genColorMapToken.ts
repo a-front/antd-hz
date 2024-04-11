@@ -47,9 +47,9 @@ export default function genColorMapToken(
     '#4fb1ff', // colorPrimaryHover
     '#198eeb', //  colorPrimary
     '#197bc9', // colorPrimaryActive
-    '#', // colorPrimaryTextHover
-    '#', // colorPrimaryText
-    '#', // colorPrimaryTextActive
+    '#ffffff', // colorPrimaryTextHover
+    '#ffffff', // colorPrimaryText
+    '#ffffff', // colorPrimaryTextActive
   ];
   const successColors = [
     '',

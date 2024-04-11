@@ -5,6 +5,7 @@ import type { FullToken, GenerateStyle, GetDefaultToken } from '../../theme/inte
 import { genStyleHooks, mergeToken } from '../../theme/internal';
 import genMotionStyle from './motion';
 
+import headerIcon from './icon.svg';
 export interface ComponentToken {
   /**
    * @desc 弹窗 z-index
@@ -154,17 +155,22 @@ const genDrawerStyle: GenerateStyle<DrawerToken> = (token) => {
         display: 'flex',
         flex: 0,
         alignItems: 'center',
-        padding: `${unit(padding)} ${unit(paddingLG)}`,
-        fontSize: fontSizeLG,
-        lineHeight: lineHeightLG,
+        // padding: `${unit(padding)} ${unit(paddingLG)}`,
+        padding: `23px 8px 10px ${unit(padding)}`,
+        // fontSize: fontSizeLG,
+        fontSize: '14px',
+        // lineHeight: lineHeightLG,
+        lineHeight: '16px',
         borderBottom: `${unit(lineWidth)} ${lineType} ${colorSplit}`,
-
         '&-title': {
           display: 'flex',
           flex: 1,
           alignItems: 'center',
+          height: '16px',
           minWidth: 0,
           minHeight: 0,
+          background: `url(${headerIcon}) no-repeat 0 center / 16px 16px `,
+          textIndent: '26px',
         },
       },
 
@@ -173,6 +179,7 @@ const genDrawerStyle: GenerateStyle<DrawerToken> = (token) => {
       },
 
       [`${componentCls}-close`]: {
+        order: 99,
         display: 'inline-flex',
         width: calc(fontSizeLG).add(paddingXS).equal(),
         height: calc(fontSizeLG).add(paddingXS).equal(),
@@ -230,6 +237,8 @@ const genDrawerStyle: GenerateStyle<DrawerToken> = (token) => {
         flexShrink: 0,
         padding: `${unit(footerPaddingBlock)} ${unit(footerPaddingInline)}`,
         borderTop: `${unit(lineWidth)} ${lineType} ${colorSplit}`,
+        display: 'flex',
+        justifyContent: 'center',
       },
 
       // ====================== RTL =======================
