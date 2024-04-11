@@ -10,28 +10,113 @@ interface PaletteGenerators {
 
 export default function genColorMapToken(
   seed: SeedToken,
-  { generateColorPalettes, generateNeutralColorPalettes }: PaletteGenerators,
+  {
+    // generateColorPalettes,
+    generateNeutralColorPalettes,
+  }: PaletteGenerators,
 ): ColorMapToken {
   const {
-    colorSuccess: colorSuccessBase,
-    colorWarning: colorWarningBase,
-    colorError: colorErrorBase,
-    colorInfo: colorInfoBase,
-    colorPrimary: colorPrimaryBase,
+    // colorSuccess: colorSuccessBase,
+    // colorWarning: colorWarningBase,
+    // colorError: colorErrorBase,
+    // colorInfo: colorInfoBase,
+    // colorPrimary: colorPrimaryBase,
     colorBgBase,
     colorTextBase,
   } = seed;
 
-  const primaryColors = generateColorPalettes(colorPrimaryBase);
-  const successColors = generateColorPalettes(colorSuccessBase);
-  const warningColors = generateColorPalettes(colorWarningBase);
-  const errorColors = generateColorPalettes(colorErrorBase);
-  const infoColors = generateColorPalettes(colorInfoBase);
+  // antd default color
+  // const primaryColors = generateColorPalettes(colorPrimaryBase);
+  // const successColors = generateColorPalettes(colorSuccessBase);
+  // const warningColors = generateColorPalettes(colorWarningBase);
+  // const errorColors = generateColorPalettes(colorErrorBase);
+  // const infoColors = generateColorPalettes(colorInfoBase);
   const neutralColors = generateNeutralColorPalettes(colorBgBase, colorTextBase);
 
   // Color Link
-  const colorLink = seed.colorLink || seed.colorInfo;
-  const linkColors = generateColorPalettes(colorLink);
+  // const colorLink = seed.colorLink || seed.colorInfo;
+  // const linkColors = generateColorPalettes(colorLink);
+
+  // hz color
+  const primaryColors = [
+    '',
+    '#198eeb', // colorPrimaryBg
+    '#4fb1ff', // colorPrimaryBgHover
+    '#198eeb', // colorPrimaryBorder
+    '#4fb1ff', // colorPrimaryBorderHover
+    '#4fb1ff', // colorPrimaryHover
+    '#198eeb', //  colorPrimary
+    '#197bc9', // colorPrimaryActive
+    '#', // colorPrimaryTextHover
+    '#', // colorPrimaryText
+    '#', // colorPrimaryTextActive
+  ];
+  const successColors = [
+    '',
+    '#4acfb1', // colorSuccessBg
+    '#', // colorSuccessBgHover
+    '#', // colorSuccessBorder
+    '#', // colorSuccessBorderHover
+    '#', // colorSuccessHover
+    '#', // colorSuccess
+    '#', // colorSuccessActive
+    '#', // colorSuccessTextHover
+    '#4acfb1', // colorSuccessText
+    '#', // colorSuccessTextActive
+  ];
+
+  const errorColors = [
+    '',
+    '#f36969', // 1 colorErrorBg
+    '#fa8383', // 2 colorErrorBgHover
+    '#f36969', // 3 colorErrorBorder
+    '#fa8383', // 4 colorErrorBorderHover
+    '#fa8383', // 5 colorErrorHover
+    '#f36969', // 6 colorError
+    '#d45353', // 7 colorErrorActive
+    '', // 8 colorErrorTextHover
+    '', // 9 colorErrorText
+    '', // 10 colorErrorTextActive
+  ];
+
+  const warningColors = [
+    '',
+    '#ff9b54', // warningColors
+    '#', // colorWarningBgHover
+    '#', // colorWarningBorder
+    '#', // colorWarningBorderHover colorWarningHover
+    '#', //
+    '#', // colorWarning
+    '#', // colorWarningActive
+    '#', // colorWarningTextHover
+    '#', // colorWarningText
+    '#', // colorWarningTextActive
+  ];
+
+  const infoColors = [
+    '',
+    '#45a8e6', // infoColors
+    '#', // colorInfoBgHover
+    '#', // colorInfoBorder
+    '#', // colorInfoBorderHover colorInfoHover
+    '#', //
+    '#', // colorInfo
+    '#', // colorInfoActive
+    '#', // colorInfoTextHover
+    '#', // colorInfoText
+    '#', // colorInfoTextActive
+  ];
+
+  const linkColors = [
+    '',
+    '', // 1
+    '',
+    '', // 3
+    '#1a78b8', // 4 colorLinkHover
+    '', // 5
+    '#3b8fd9', // 6 colorLink
+    '#0f6cb2', // 7 colorLinkActive
+  ];
 
   return {
     ...neutralColors,
