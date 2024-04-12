@@ -5,7 +5,8 @@ import type { FullToken, GenerateStyle, GetDefaultToken } from '../../theme/inte
 import { genStyleHooks, mergeToken } from '../../theme/internal';
 import genMotionStyle from './motion';
 
-import headerIcon from './icon.svg';
+// import headerIcon from './icon.svg';
+
 export interface ComponentToken {
   /**
    * @desc 弹窗 z-index
@@ -169,8 +170,9 @@ const genDrawerStyle: GenerateStyle<DrawerToken> = (token) => {
           height: '16px',
           minWidth: 0,
           minHeight: 0,
-          background: `url(${headerIcon}) no-repeat 0 center / 16px 16px `,
-          textIndent: '26px',
+
+          // background: `url(}) no-repeat 0 center / 16px 16px `,
+          // textIndent: '26px',
         },
       },
 
@@ -221,6 +223,8 @@ const genDrawerStyle: GenerateStyle<DrawerToken> = (token) => {
         fontWeight: token.fontWeightStrong,
         fontSize: fontSizeLG,
         lineHeight: lineHeightLG,
+        display: 'flex',
+        alignItems: 'center',
       },
 
       // Body

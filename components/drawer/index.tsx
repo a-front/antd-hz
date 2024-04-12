@@ -14,8 +14,10 @@ import { NoFormStyle } from '../form/context';
 import { NoCompactStyle } from '../space/Compact';
 import { usePanelRef } from '../watermark/context';
 import type { DrawerClassNames, DrawerPanelProps, DrawerStyles } from './DrawerPanel';
+
 import DrawerPanel from './DrawerPanel';
 import useStyle from './style';
+import TitleIcon from './icon';
 
 const SizeTypes = ['default', 'large'] as const;
 type sizeType = (typeof SizeTypes)[number];
@@ -70,6 +72,7 @@ const Drawer: React.FC<DrawerProps> & {
     drawerStyle,
     contentWrapperStyle,
 
+    title,
     ...rest
   } = props;
 
@@ -204,7 +207,17 @@ const Drawer: React.FC<DrawerProps> & {
             panelRef={panelRef}
             zIndex={zIndex}
           >
-            <DrawerPanel prefixCls={prefixCls} {...rest} onClose={onClose} />
+            <DrawerPanel
+              title={
+                <>
+                  <TitleIcon />
+                  <span style={{ marginLeft: '10px' }}>&#8205;</span> {title}
+                </>
+              }
+              prefixCls={prefixCls}
+              {...rest}
+              onClose={onClose}
+            />
           </RcDrawer>
         </zIndexContext.Provider>
       </NoFormStyle>
