@@ -4,9 +4,9 @@ const genControlHeight = (token: SeedToken): HeightMapToken => {
   const { controlHeight } = token;
 
   return {
-    controlHeightSM: controlHeight * 0.75,
-    controlHeightXS: controlHeight * 0.5,
-    controlHeightLG: controlHeight * 1.25,
+    controlHeightSM: controlHeight * 0.8125,
+    controlHeightXS: controlHeight * 1,
+    controlHeightLG: controlHeight * 1.125,
   };
 };
 
