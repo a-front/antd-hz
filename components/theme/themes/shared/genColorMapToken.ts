@@ -180,7 +180,7 @@ export default function genColorMapToken(
     colorLink: linkColors[6],
     colorLinkActive: linkColors[7],
 
-    colorBgMask: new TinyColor('#000').setAlpha(0.45).toRgbString(),
+    colorBgMask: new TinyColor('#000').setAlpha(0.3).toRgbString(),
     colorWhite: '#fff',
   };
 }

@@ -192,11 +192,17 @@ const genModalStyle: GenerateStyle<ModalToken> = (token) => {
 
         [`${componentCls}-title`]: {
           margin: 0,
-          color: token.titleColor,
+          // color: token.titleColor,
           fontWeight: token.fontWeightStrong,
-          fontSize: token.titleFontSize,
-          lineHeight: token.titleLineHeight,
+          // fontSize: token.titleFontSize,
+          // lineHeight: token.titleLineHeight,
           wordWrap: 'break-word',
+          background: token.colorPrimary,
+          color: token.colorWhite,
+          paddingLeft: '10px',
+          height: '38px',
+          fontSize: '14px',
+          lineHeight: '38px',
         },
 
         [`${componentCls}-content`]: {
@@ -207,20 +213,22 @@ const genModalStyle: GenerateStyle<ModalToken> = (token) => {
           borderRadius: token.borderRadiusLG,
           boxShadow: token.boxShadow,
           pointerEvents: 'auto',
-          padding: token.contentPadding,
+          // padding: token.contentPadding,
         },
 
         [`${componentCls}-close`]: {
           position: 'absolute',
-          top: token.calc(token.modalHeaderHeight).sub(token.modalCloseBtnSize).div(2).equal(),
-          insetInlineEnd: token
-            .calc(token.modalHeaderHeight)
-            .sub(token.modalCloseBtnSize)
-            .div(2)
-            .equal(),
+          // top: token.calc(token.modalHeaderHeight).sub(token.modalCloseBtnSize).div(2).equal(),
+          // insetInlineEnd: token
+          //   .calc(token.modalHeaderHeight)
+          //   .sub(token.modalCloseBtnSize)
+          //   .div(2)
+          //   .equal(),
+          top: '4px',
+          right: '8px',
           zIndex: token.calc(token.zIndexPopupBase).add(10).equal(),
           padding: 0,
-          color: token.modalCloseIconColor,
+          color: token.colorWhite,
           fontWeight: token.fontWeightStrong,
           lineHeight: 1,
           textDecoration: 'none',
@@ -244,13 +252,13 @@ const genModalStyle: GenerateStyle<ModalToken> = (token) => {
           },
 
           '&:hover': {
-            color: token.modalCloseIconHoverColor,
+            color: token.colorWhite,
             backgroundColor: token.colorBgTextHover,
             textDecoration: 'none',
           },
 
           '&:active': {
-            backgroundColor: token.colorBgTextActive,
+            backgroundColor: token.colorWhite,
           },
 
           ...genFocusStyle(token),
@@ -261,7 +269,7 @@ const genModalStyle: GenerateStyle<ModalToken> = (token) => {
           background: token.headerBg,
           borderRadius: `${unit(token.borderRadiusLG)} ${unit(token.borderRadiusLG)} 0 0`,
           marginBottom: token.headerMarginBottom,
-          padding: token.headerPadding,
+          // padding: token.headerPadding,
           borderBottom: token.headerBorderBottom,
         },
 
@@ -269,20 +277,28 @@ const genModalStyle: GenerateStyle<ModalToken> = (token) => {
           fontSize: token.fontSize,
           lineHeight: token.lineHeight,
           wordWrap: 'break-word',
-          padding: token.bodyPadding,
+          // padding: token.bodyPadding,
+          padding: `24px 20px`,
         },
 
         [`${componentCls}-footer`]: {
-          textAlign: 'end',
-          background: token.footerBg,
+          // textAlign: 'center',
+          // background: token.footerBg,
+          background: token.colorWhite,
           marginTop: token.footerMarginTop,
-          padding: token.footerPadding,
-          borderTop: token.footerBorderTop,
+          // padding: token.footerPadding,
+          // borderTop: token.footerBorderTop,
           borderRadius: token.footerBorderRadius,
 
           [`> ${token.antCls}-btn + ${token.antCls}-btn`]: {
             marginInlineStart: token.marginXS,
           },
+          height: '60px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: '#F9F9F9',
+          boxShadow: '0px 1px 0px 0px #e8e8e8 inset',
         },
 
         [`${componentCls}-open`]: {
