@@ -260,7 +260,7 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
     tableFooterBg,
     calc,
   } = token;
-  const tableBorder = `${unit(lineWidth)} ${lineType} ${tableBorderColor}`;
+  // const tableBorder = `${unit(lineWidth)} ${lineType} ${tableBorderColor}`;
   return {
     [`${componentCls}-wrapper`]: {
       clear: 'both',
@@ -294,7 +294,7 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
           tfoot > tr > td
         `]: {
         position: 'relative',
-        padding: `${unit(tablePaddingVertical)} ${unit(tablePaddingHorizontal)}`,
+        padding: `${unit(8 /* tablePaddingVertical */)} ${unit(10 /* tablePaddingHorizontal */)}`,
         overflowWrap: 'break-word',
       },
 
@@ -313,8 +313,9 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
           color: tableHeaderTextColor,
           fontWeight: fontWeightStrong,
           textAlign: 'start',
-          background: tableHeaderBg,
-          borderBottom: tableBorder,
+          background: '#ECF6FF',
+          borderBottom: 'solid 1px rgba(204, 204, 204, 0.5)',
+
           transition: `background ${motionDurationMid} ease`,
 
           "&[colspan]:not([colspan='1'])": {
@@ -345,7 +346,7 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
         '> tr': {
           [`> th, > td`]: {
             transition: `background ${motionDurationMid}, border-color ${motionDurationMid}`,
-            borderBottom: tableBorder,
+            borderBottom: 'solid 1px #eee',
 
             // ========================= Nest Table ===========================
             [`
@@ -373,8 +374,8 @@ const genTableStyle: GenerateStyle<TableToken, CSSObject> = (token) => {
             color: tableHeaderTextColor,
             fontWeight: fontWeightStrong,
             textAlign: 'start',
-            background: tableHeaderBg,
-            borderBottom: tableBorder,
+            background: '#ECF6FF',
+            // borderBottom: tableBorder,
             transition: `background ${motionDurationMid} ease`,
           },
         },
@@ -438,9 +439,9 @@ export const prepareComponentToken: GetDefaultToken<'Table'> = (token) => {
     headerSortActiveBg: colorFillSecondarySolid,
     headerSortHoverBg: colorFillContentSolid,
     bodySortBg: colorFillAlterSolid,
-    rowHoverBg: colorFillAlterSolid,
+    rowHoverBg: '#fffbe0',
     rowSelectedBg: controlItemBgActive,
-    rowSelectedHoverBg: controlItemBgActiveHover,
+    rowSelectedHoverBg: '#fffbe0',
     rowExpandedBg: colorFillAlter,
     cellPaddingBlock: padding,
     cellPaddingInline: padding,
