@@ -19,7 +19,7 @@ export default () => (
           headerPadding: '0px 10px 20px 30px',
           headerBg: '#eaeeff',
           contentPadding: '0px 10px 20px 30px',
-          contentBg: '#e6f7ff',
+          contentBg: '#ffffff',
         },
       },
     }}

@@ -12,14 +12,14 @@ import type { GenerateStyle } from '../../theme/internal';
 const genModalConfirmStyle: GenerateStyle<ModalToken> = (token) => {
   const {
     componentCls,
-    titleFontSize,
+    // titleFontSize,
     titleLineHeight,
     modalConfirmIconSize,
-    fontSize,
+    // fontSize,
     lineHeight,
     modalTitleHeight,
     fontHeight,
-    confirmBodyPadding,
+    // confirmBodyPadding,
   } = token;
   const confirmComponentCls = `${componentCls}-confirm`;
 
@@ -35,7 +35,8 @@ const genModalConfirmStyle: GenerateStyle<ModalToken> = (token) => {
         ...clearFix(),
       },
       [`&${componentCls} ${componentCls}-body`]: {
-        padding: confirmBodyPadding,
+        // padding: confirmBodyPadding,
+        padding: '24px 26px 18px',
       },
 
       // ====================== Body ======================
@@ -78,20 +79,31 @@ const genModalConfirmStyle: GenerateStyle<ModalToken> = (token) => {
       [`${confirmComponentCls}-title`]: {
         color: token.colorTextHeading,
         fontWeight: token.fontWeightStrong,
-        fontSize: titleFontSize,
+        // fontSize: titleFontSize,
+        fontSize: '14px',
         lineHeight: titleLineHeight,
       },
 
       [`${confirmComponentCls}-content`]: {
         color: token.colorText,
-        fontSize,
+        fontSize: '12px',
         lineHeight,
       },
 
       // ===================== Footer =====================
       [`${confirmComponentCls}-btns`]: {
-        textAlign: 'end',
-        marginTop: token.confirmBtnsMarginTop,
+        textAlign: 'center',
+        // marginTop: token.confirmBtnsMarginTop,
+        marginTop: '18px',
+        height: '24px',
+        [`${token.antCls}-btn`]: {
+          paddingTop: 0,
+          paddingBottom: 0,
+        },
+        [`${token.antCls}-btn, ${token.antCls}-btn *`]: {
+          height: '24px !important',
+          lineHeight: '24px !important',
+        },
 
         [`${token.antCls}-btn + ${token.antCls}-btn`]: {
           marginBottom: 0,

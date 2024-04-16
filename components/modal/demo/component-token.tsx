@@ -10,7 +10,7 @@ export default () => (
       components: {
         Modal: {
           footerBg: '#f6ffed',
-          contentBg: '#e6fffb',
+          contentBg: '#fff',
           headerBg: '#f9f0ff',
           titleLineHeight: 3,
           titleFontSize: 12,
