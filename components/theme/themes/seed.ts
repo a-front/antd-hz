@@ -63,7 +63,7 @@ const seedToken: SeedToken = {
   sizePopupArrow: 16,
 
   // Control Base
-  controlHeight: 32,
+  controlHeight: 24,
 
   // zIndex
   zIndexBase: 0,

@@ -21,7 +21,38 @@ const Table = <RecordType extends AnyObject = AnyObject>(
 ) => {
   const renderTimesRef = React.useRef<number>(0);
   renderTimesRef.current += 1;
-  return <InternalTable<RecordType> {...props} ref={ref} _renderTimes={renderTimesRef.current} />;
+  let { pagination } = props;
+  const { dataSource } = props;
+  const PAGE_NUM = 5;
+  const PROPS_ADD_TO_PAGINATION = {
+    showSizeChanger: true,
+    showQuickJumper: true,
+  };
+
+  if (pagination && typeof pagination === 'object') {
+    // 超过5页显示跳转
+    const { pageSize = 10, total = dataSource?.length || 0 } = pagination;
+
+    const pageIsOver = !!(pageSize && total && total / pageSize >= PAGE_NUM);
+    if (pageIsOver) {
+      pagination = {
+        ...PROPS_ADD_TO_PAGINATION,
+        ...pagination,
+      };
+    }
+  } else if (pagination === undefined && (dataSource?.length || 0) / 10 >= PAGE_NUM) {
+    pagination = {
+      ...PROPS_ADD_TO_PAGINATION,
+    };
+  }
+  return (
+    <InternalTable<RecordType>
+      {...props}
+      pagination={pagination}
+      ref={ref}
+      _renderTimes={renderTimesRef.current}
+    />
+  );
 };
 
 const ForwardTable = React.forwardRef(Table) as unknown as RefTable & {

@@ -399,7 +399,7 @@ export const prepareComponentToken: GetDefaultToken<'Table'> = (token) => {
     colorFillSecondary,
     colorFillContent,
     controlItemBgActive,
-    controlItemBgActiveHover,
+    // controlItemBgActiveHover,
     padding,
     paddingSM,
     paddingXS,

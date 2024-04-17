@@ -112,7 +112,7 @@ const genPaginationDisabledStyle: GenerateStyle<PaginationToken, CSSObject> = (t
         a: {
           color: token.colorTextDisabled,
           backgroundColor: 'transparent',
-          border: 'none',
+          // border: 'none',
           cursor: 'not-allowed',
         },
 
@@ -429,7 +429,7 @@ const genPaginationJumpStyle: GenerateStyle<PaginationToken, CSSObject> = (token
         fontSize: token.fontSizeSM,
         textAlign: 'center',
         backgroundColor: 'transparent',
-        border: `${unit(token.lineWidth)} ${token.lineType} transparent`,
+        border: `${unit(token.lineWidth)} ${token.lineType} #dbdbdb`,
         borderRadius: token.borderRadius,
         outline: 'none',
         transition: `all ${token.motionDurationMid}`,
@@ -498,7 +498,7 @@ const genPaginationJumpStyle: GenerateStyle<PaginationToken, CSSObject> = (token
 
 const genPaginationItemStyle: GenerateStyle<PaginationToken, CSSObject> = (token) => {
   const { componentCls } = token;
-
+  // token.itemSize
   return {
     [`${componentCls}-item`]: {
       display: 'inline-block',
@@ -511,7 +511,7 @@ const genPaginationItemStyle: GenerateStyle<PaginationToken, CSSObject> = (token
       verticalAlign: 'middle',
       listStyle: 'none',
       backgroundColor: 'transparent',
-      border: `${unit(token.lineWidth)} ${token.lineType} transparent`,
+      border: `${unit(token.lineWidth)} ${token.lineType} #dbdbdb`,
       borderRadius: token.borderRadius,
       outline: 0,
       cursor: 'pointer',
