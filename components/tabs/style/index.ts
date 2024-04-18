@@ -593,7 +593,7 @@ const genSizeStyle: GenerateStyle<TabsToken> = (token: TabsToken): CSSObject => 
       '&-small': {
         [`> ${componentCls}-nav`]: {
           [`${componentCls}-tab`]: {
-            padding: horizontalItemPaddingSM,
+            // padding: horizontalItemPaddingSM,
             fontSize: token.titleFontSizeSM,
           },
         },
@@ -613,7 +613,8 @@ const genSizeStyle: GenerateStyle<TabsToken> = (token: TabsToken): CSSObject => 
       [`&${componentCls}-small`]: {
         [`> ${componentCls}-nav`]: {
           [`${componentCls}-tab`]: {
-            padding: cardPaddingSM,
+            // padding: cardPaddingSM,
+            padding: '12px 20px',
           },
         },
         [`&${componentCls}-bottom`]: {
@@ -676,7 +677,9 @@ const genTabStyle: GenerateStyle<TabsToken, CSSObject> = (token: TabsToken) => {
       WebkitTapHighlightColor: 'transparent',
       display: 'inline-flex',
       alignItems: 'center',
-      padding: horizontalItemPadding,
+      // padding: horizontalItemPadding,
+      padding: '10px 20px',
+      lineHeight: 1,
       fontSize: token.titleFontSize,
       background: 'transparent',
       border: 0,
@@ -1058,7 +1061,8 @@ export default genStyleHooks(
       tabsActiveTextShadow: '0 0 0.25px currentcolor',
       tabsDropdownHeight: 200,
       tabsDropdownWidth: 120,
-      tabsHorizontalItemMargin: `0 0 0 ${unit(token.horizontalItemGutter)}`,
+      // tabsHorizontalItemMargin: `0 0 0 ${unit(token.horizontalItemGutter)}`,
+      tabsHorizontalItemMargin: `0`,
       tabsHorizontalItemMarginRTL: `0 0 0 ${unit(token.horizontalItemGutter)}`,
     });
 
