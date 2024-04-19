@@ -27,14 +27,12 @@ const seedToken: SeedToken = {
   colorError: '#ff4d4f',
   colorInfo: '#1677ff',
   colorLink: '',
-  colorTextBase: '',
+  colorTextBase: '#66666',
 
   colorBgBase: '',
 
   // Font
-  fontFamily: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-'Noto Color Emoji'`,
+  fontFamily: `"Microsoft YaHei", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei";`,
   fontFamilyCode: `'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace`,
   fontSize: 14,
 

@@ -100,10 +100,10 @@ export default function genColorMapToken(
     '#', // colorInfoBorder
     '#', // colorInfoBorderHover colorInfoHover
     '#', //
-    '#', // colorInfo
-    '#', // colorInfoActive
-    '#', // colorInfoTextHover
-    '#', // colorInfoText
+    '#999999', // colorInfo
+    '#999999', // colorInfoActive
+    '#999999', // colorInfoTextHover
+    '#999999', // colorInfoText
     '#', // colorInfoTextActive
   ];
 
@@ -114,7 +114,7 @@ export default function genColorMapToken(
     '', // 3
     '#1a78b8', // 4 colorLinkHover
     '', // 5
-    '#3b8fd9', // 6 colorLink
+    '#3B8FD9', // 6 colorLink
     '#0f6cb2', // 7 colorLinkActive
   ];
 
