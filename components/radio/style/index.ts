@@ -134,7 +134,7 @@ const getRadioBasicStyle: GenerateStyle<RadioToken> = (token) => {
     lineWidth,
     colorBgContainerDisabled,
     colorTextDisabled,
-    paddingXS,
+    // paddingXS,
     dotColorDisabled,
     lineType,
     radioColor,
@@ -302,8 +302,8 @@ const getRadioBasicStyle: GenerateStyle<RadioToken> = (token) => {
       },
 
       [`span${componentCls} + *`]: {
-        paddingInlineStart: paddingXS,
-        paddingInlineEnd: paddingXS,
+        paddingInlineStart: '10px',
+        paddingInlineEnd: '32px',
       },
     },
   };

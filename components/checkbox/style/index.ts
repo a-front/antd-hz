@@ -126,8 +126,8 @@ export const genCheckboxStyle: GenerateStyle<CheckboxToken> = (token) => {
 
         // Wrapper > Checkbox + Text
         '& + span': {
-          paddingInlineStart: token.paddingXS,
-          paddingInlineEnd: token.paddingXS,
+          paddingInlineStart: '10px',
+          paddingInlineEnd: '2px',
         },
       },
     },
@@ -254,7 +254,7 @@ export const genCheckboxStyle: GenerateStyle<CheckboxToken> = (token) => {
 export function getStyle(prefixCls: string, token: FullToken<'Checkbox'>) {
   const checkboxToken: CheckboxToken = mergeToken<CheckboxToken>(token, {
     checkboxCls: `.${prefixCls}`,
-    checkboxSize: token.controlInteractiveSize,
+    checkboxSize: 16,
   });
 
   return [genCheckboxStyle(checkboxToken)];
