@@ -13,18 +13,14 @@
     "react-component",
     "ui"
   ],
-  "homepage": "https://ant.design",
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/a-front/antd-hz/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/a-front/antd-hz"
   },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ant-design"
-  },
+
   "license": "MIT",
   "contributors": [
     "ant"
