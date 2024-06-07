@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DatePicker, Space } from 'antd';
+import { DatePicker, Space } from 'antd-hz';
 import type { Dayjs } from 'dayjs';
 
 const App: React.FC = () => {

@@ -54,7 +54,7 @@ $ npm run start
 
 ```tsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 const App: React.FC = () => (
   <div className="App">
@@ -73,7 +73,7 @@ export default App;
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider theme={{ token: { colorPrimary: '#00b96b' } }}>

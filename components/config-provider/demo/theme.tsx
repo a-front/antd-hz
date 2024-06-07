@@ -9,8 +9,8 @@ import {
   InputNumber,
   Space,
   Switch,
-} from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+} from 'antd-hz';
+import type { ColorPickerProps, GetProp } from 'antd-hz';
 
 type Color = Exclude<GetProp<ColorPickerProps, 'value'>, string>;
 

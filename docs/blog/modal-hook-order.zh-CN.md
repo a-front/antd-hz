@@ -8,7 +8,7 @@ author: zombieJ
 
 ```tsx
 import React from 'react';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'antd-hz';
 
 export default () => {
   const [modal, contextHolder] = Modal.useModal();

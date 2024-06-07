@@ -1,6 +1,6 @@
 import React from 'react';
-import { Select, Tag } from 'antd';
-import type { SelectProps } from 'antd';
+import { Select, Tag } from 'antd-hz';
+import type { SelectProps } from 'antd-hz';
 
 type TagRender = SelectProps['tagRender'];
 

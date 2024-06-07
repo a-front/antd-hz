@@ -1,6 +1,6 @@
 import React from 'react';
-import { Tree } from 'antd';
-import type { TreeDataNode } from 'antd';
+import { Tree } from 'antd-hz';
+import type { TreeDataNode } from 'antd-hz';
 
 const treeData: TreeDataNode[] = [
   {

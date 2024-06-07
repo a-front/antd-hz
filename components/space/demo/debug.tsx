@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popconfirm, Space } from 'antd';
+import { Button, Popconfirm, Space } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space>

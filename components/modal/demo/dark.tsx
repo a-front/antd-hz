@@ -19,7 +19,7 @@ import {
   Transfer,
   Tree,
   Typography,
-} from 'antd';
+} from 'antd-hz';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import difference from 'lodash/difference';

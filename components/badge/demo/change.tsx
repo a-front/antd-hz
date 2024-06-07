@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MinusOutlined, PlusOutlined, QuestionOutlined } from '@ant-design/icons';
-import { Avatar, Badge, Button, Space, Switch } from 'antd';
+import { Avatar, Badge, Button, Space, Switch } from 'antd-hz';
 
 const ButtonGroup = Button.Group;
 

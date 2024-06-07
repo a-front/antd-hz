@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeartOutlined } from '@ant-design/icons';
-import { Flex, Rate } from 'antd';
+import { Flex, Rate } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex vertical gap="middle">

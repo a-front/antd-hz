@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CommentOutlined, CustomerServiceOutlined } from '@ant-design/icons';
-import { FloatButton, Switch } from 'antd';
+import { FloatButton, Switch } from 'antd-hz';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(true);

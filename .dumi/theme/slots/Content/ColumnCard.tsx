@@ -1,6 +1,6 @@
 import React from 'react';
 import { RightOutlined, YuqueOutlined, ZhihuOutlined } from '@ant-design/icons';
-import { Button, Card, Divider } from 'antd';
+import { Button, Card, Divider } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 import useLocale from '../../../hooks/useLocale';

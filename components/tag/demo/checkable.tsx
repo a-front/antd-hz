@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Tag } from 'antd';
+import { Flex, Tag } from 'antd-hz';
 
 const tagsData = ['Movies', 'Books', 'Music', 'Sports'];
 

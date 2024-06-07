@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Skeleton } from 'antd';
+import { Skeleton } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 const IconSearch = React.lazy(() => import('./IconSearch'));

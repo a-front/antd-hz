@@ -93,7 +93,7 @@ fs.writeFileSync(outputPath, css);
 import fs from 'fs';
 import React from 'react';
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const outputPath = './public/antd.min.css';
 
@@ -176,7 +176,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 ```tsx
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const cssText = extractStyle((node) => (
   <ConfigProvider
@@ -197,7 +197,7 @@ const cssText = extractStyle((node) => (
 
 ```tsx
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const cssText = extractStyle((node) => (
   <>

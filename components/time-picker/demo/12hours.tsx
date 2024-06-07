@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TimePickerProps } from 'antd';
-import { Space, TimePicker } from 'antd';
+import type { TimePickerProps } from 'antd-hz';
+import { Space, TimePicker } from 'antd-hz';
 
 const onChange: TimePickerProps['onChange'] = (time, timeString) => {
   console.log(time, timeString);

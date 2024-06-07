@@ -94,7 +94,7 @@ pnpm add antd
 
 ```tsx
 import React from 'react';
-import { Button, DatePicker } from 'antd';
+import { Button, DatePicker } from 'antd-hz';
 
 const App = () => (
   <>

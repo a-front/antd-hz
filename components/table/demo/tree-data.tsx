@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Space, Switch, Table } from 'antd';
-import type { TableColumnsType, TableProps } from 'antd';
+import { Space, Switch, Table } from 'antd-hz';
+import type { TableColumnsType, TableProps } from 'antd-hz';
 
 type TableRowSelection<T> = TableProps<T>['rowSelection'];
 

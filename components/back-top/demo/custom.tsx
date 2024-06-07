@@ -1,5 +1,5 @@
 import React from 'react';
-import { BackTop } from 'antd';
+import { BackTop } from 'antd-hz';
 
 const style: React.CSSProperties = {
   height: 40,

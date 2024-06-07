@@ -1,5 +1,5 @@
 import React from 'react';
-import { Descriptions } from 'antd';
+import { Descriptions } from 'antd-hz';
 
 const App: React.FC = () => (
   <Descriptions title="User Info">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'antd';
+import { Carousel } from 'antd-hz';
 
 const contentStyle: React.CSSProperties = {
   margin: 0,

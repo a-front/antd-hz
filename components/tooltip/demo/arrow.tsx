@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Button, ConfigProvider, Segmented, Tooltip } from 'antd';
+import { Button, ConfigProvider, Segmented, Tooltip } from 'antd-hz';
 
 const text = <span>prompt text</span>;
 

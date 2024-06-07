@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { theme as antdTheme, ConfigProvider } from 'antd';
-import type { ThemeConfig } from 'antd';
+import { theme as antdTheme, ConfigProvider } from 'antd-hz';
+import type { ThemeConfig } from 'antd-hz';
 import type { ThemeProviderProps } from 'antd-style';
 import { ThemeProvider } from 'antd-style';
 

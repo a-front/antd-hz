@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Radio, Slider, Space } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Button, Radio, Slider, Space } from 'antd-hz';
+import type { ConfigProviderProps } from 'antd-hz';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

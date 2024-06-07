@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useContext } from 'react';
-import { Typography } from 'antd';
+import { Typography } from 'antd-hz';
 import { createStyles, useTheme } from 'antd-style';
 import classNames from 'classnames';
 

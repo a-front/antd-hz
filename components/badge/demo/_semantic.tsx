@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Badge } from 'antd';
+import { Avatar, Badge } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

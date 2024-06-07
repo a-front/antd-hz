@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, Typography } from 'antd';
+import { Form, Input, Typography } from 'antd-hz';
 
 const { Paragraph } = Typography;
 

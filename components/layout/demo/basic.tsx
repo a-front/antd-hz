@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Layout } from 'antd';
+import { Flex, Layout } from 'antd-hz';
 
 const { Header, Footer, Sider, Content } = Layout;
 

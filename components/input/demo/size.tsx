@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { Input } from 'antd';
+import { Input } from 'antd-hz';
 
 const App: React.FC = () => (
   <>

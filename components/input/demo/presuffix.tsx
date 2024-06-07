@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
-import { Input, Tooltip } from 'antd';
+import { Input, Tooltip } from 'antd-hz';
 
 const App: React.FC = () => (
   <>

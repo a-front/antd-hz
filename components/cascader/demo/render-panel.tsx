@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader } from 'antd';
+import { Cascader } from 'antd-hz';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalCascader } = Cascader;
 

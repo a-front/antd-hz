@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Drawer, theme } from 'antd';
+import { Button, Drawer, theme } from 'antd-hz';
 
 const App: React.FC = () => {
   const { token } = theme.useToken();

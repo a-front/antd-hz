@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Empty } from 'antd';
+import { Button, Empty } from 'antd-hz';
 
 const App: React.FC = () => (
   <Empty

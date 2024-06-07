@@ -1,8 +1,8 @@
 import type { CSSProperties } from 'react';
 import React, { useCallback, useMemo, useState } from 'react';
 import Icon, * as AntdIcons from '@ant-design/icons';
-import type { SegmentedProps } from 'antd';
-import { Affix, Empty, Input, Segmented } from 'antd';
+import type { SegmentedProps } from 'antd-hz';
+import { Affix, Empty, Input, Segmented } from 'antd-hz';
 import { createStyles, useTheme } from 'antd-style';
 import { useIntl } from 'dumi';
 import debounce from 'lodash/debounce';

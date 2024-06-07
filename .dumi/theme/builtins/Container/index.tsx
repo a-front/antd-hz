@@ -3,7 +3,7 @@
  */
 import * as React from 'react';
 import type { FC, ReactNode } from 'react';
-import { Alert } from 'antd';
+import { Alert } from 'antd-hz';
 
 import useStyles from './style';
 

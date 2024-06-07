@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor } from 'antd';
+import { Anchor } from 'antd-hz';
 import { createStyles, useTheme } from 'antd-style';
 import type { AnchorLinkItemProps } from 'antd/es/anchor/Anchor';
 import classNames from 'classnames';

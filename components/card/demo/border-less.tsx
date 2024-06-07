@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'antd';
+import { Card } from 'antd-hz';
 
 const App: React.FC = () => (
   <Card title="Card title" bordered={false} style={{ width: 300 }}>

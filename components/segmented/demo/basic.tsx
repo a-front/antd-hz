@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segmented } from 'antd';
+import { Segmented } from 'antd-hz';
 
 const Demo: React.FC = () => (
   <Segmented<string>

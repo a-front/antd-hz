@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Badge, Carousel, Skeleton, Typography } from 'antd';
+import { Badge, Carousel, Skeleton, Typography } from 'antd-hz';
 import { createStyles, useTheme } from 'antd-style';
 import classNames from 'classnames';
 

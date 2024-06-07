@@ -1,5 +1,5 @@
 import React from 'react';
-import { Drawer, Typography } from 'antd';
+import { Drawer, Typography } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

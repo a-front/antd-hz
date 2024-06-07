@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { InputNumberProps } from 'antd';
-import { Col, InputNumber, Row, Slider, Space } from 'antd';
+import type { InputNumberProps } from 'antd-hz';
+import { Col, InputNumber, Row, Slider, Space } from 'antd-hz';
 
 const IntegerStep: React.FC = () => {
   const [inputValue, setInputValue] = useState(1);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Steps } from 'antd';
+import { ConfigProvider, Steps } from 'antd-hz';
 
 const description = 'This is a description.';
 const App: React.FC = () => (

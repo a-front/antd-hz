@@ -12,7 +12,7 @@ import {
   TimePicker,
   TreeSelect,
   Typography,
-} from 'antd';
+} from 'antd-hz';
 
 const { Text } = Typography;
 const { RangePicker } = DatePicker;

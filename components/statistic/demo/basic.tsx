@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Row, Statistic } from 'antd';
+import { Button, Col, Row, Statistic } from 'antd-hz';
 
 const App: React.FC = () => (
   <Row gutter={16}>

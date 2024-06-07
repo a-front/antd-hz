@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Tooltip } from 'antd';
+import { Button, Tooltip } from 'antd-hz';
 
 const App: React.FC = () => {
   React.useEffect(() => {

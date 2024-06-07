@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { StepsProps } from 'antd';
-import { Card, Radio, Steps } from 'antd';
+import type { StepsProps } from 'antd-hz';
+import { Card, Radio, Steps } from 'antd-hz';
 
 const App: React.FC = () => {
   const [size, setSize] = useState<StepsProps['size']>('default');

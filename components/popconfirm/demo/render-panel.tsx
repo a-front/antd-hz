@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popconfirm } from 'antd';
+import { Popconfirm } from 'antd-hz';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPopconfirm } = Popconfirm;
 

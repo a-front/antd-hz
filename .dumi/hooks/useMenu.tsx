@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
-import type { MenuProps } from 'antd';
-import { Tag, version } from 'antd';
+import type { MenuProps } from 'antd-hz';
+import { Tag, version } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import classnames from 'classnames';
 import { useFullSidebarData, useSidebarData } from 'dumi';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { PaginationProps } from 'antd';
-import { Pagination } from 'antd';
+import type { PaginationProps } from 'antd-hz';
+import { Pagination } from 'antd-hz';
 
 const App: React.FC = () => {
   const [current, setCurrent] = useState(3);

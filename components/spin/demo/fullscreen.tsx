@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Spin } from 'antd';
+import { Button, Spin } from 'antd-hz';
 
 const App: React.FC = () => {
   const [spinning, setSpinning] = React.useState<boolean>(false);

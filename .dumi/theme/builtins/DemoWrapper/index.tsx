@@ -7,7 +7,7 @@ import {
   ExperimentFilled,
   ExperimentOutlined,
 } from '@ant-design/icons';
-import { ConfigProvider, Tooltip } from 'antd';
+import { ConfigProvider, Tooltip } from 'antd-hz';
 import classNames from 'classnames';
 import { DumiDemoGrid, FormattedMessage } from 'dumi';
 

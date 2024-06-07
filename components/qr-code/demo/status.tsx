@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, QRCode } from 'antd';
+import { Flex, QRCode } from 'antd-hz';
 
 const value = 'https://ant.design';
 

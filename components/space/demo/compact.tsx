@@ -12,7 +12,7 @@ import {
   TimePicker,
   Tooltip,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 const { Option } = Select;
 const { TreeNode } = TreeSelect;

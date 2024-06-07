@@ -1,6 +1,6 @@
 import { PictureOutlined } from '@ant-design/icons';
 import React from 'react';
-import { Image, Tooltip, Typography } from 'antd';
+import { Image, Tooltip, Typography } from 'antd-hz';
 import useLocale from '../../../hooks/useLocale';
 
 const locales = {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, List, Typography } from 'antd';
+import { Divider, List, Typography } from 'antd-hz';
 
 const data = [
   'Racing car sprays burning fuel into crowd.',

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mentions } from 'antd';
+import { Mentions } from 'antd-hz';
 import type { MentionsProps } from 'rc-mentions';
 
 const MOCK_DATA = {

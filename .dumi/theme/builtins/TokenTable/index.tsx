@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import * as React from 'react';
-import type { TableProps } from 'antd';
-import { Table } from 'antd';
+import type { TableProps } from 'antd-hz';
+import { Table } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import { getDesignToken } from 'antd-token-previewer';
 import tokenMeta from 'antd/es/version/token-meta.json';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Checkbox, Divider } from 'antd';
-import type { CheckboxProps, GetProp } from 'antd';
+import { Checkbox, Divider } from 'antd-hz';
+import type { CheckboxProps, GetProp } from 'antd-hz';
 
 type CheckboxValueType = GetProp<typeof Checkbox.Group, 'value'>[number];
 

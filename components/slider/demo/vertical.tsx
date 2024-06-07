@@ -1,6 +1,6 @@
 import React from 'react';
-import { Slider } from 'antd';
-import type { SliderSingleProps } from 'antd';
+import { Slider } from 'antd-hz';
+import type { SliderSingleProps } from 'antd-hz';
 
 const style: React.CSSProperties = {
   display: 'inline-block',

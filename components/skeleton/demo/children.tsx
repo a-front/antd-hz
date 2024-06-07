@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Skeleton, Space } from 'antd';
+import { Button, Skeleton, Space } from 'antd-hz';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);

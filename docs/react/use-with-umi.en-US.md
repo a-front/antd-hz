@@ -132,7 +132,7 @@ Create a new `src/components/ProductList.tsx` file with the following code.
 
 ```tsx
 import React from 'react';
-import { Button, Popconfirm, Table } from 'antd';
+import { Button, Popconfirm, Table } from 'antd-hz';
 
 const ProductList: React.FC<{ products: { name: string }[]; onDelete: (id: string) => void }> = ({
   onDelete,

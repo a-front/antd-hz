@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Checkbox, ConfigProvider, Divider, Form, Input, Radio, Space } from 'antd';
-import type { ConfigProviderProps } from 'antd';
+import { Checkbox, ConfigProvider, Divider, Form, Input, Radio, Space } from 'antd-hz';
+import type { ConfigProviderProps } from 'antd-hz';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

@@ -302,7 +302,7 @@ Properties for row selection.
 
 ```tsx
 import React from 'react';
-import { Table } from 'antd';
+import { Table } from 'antd-hz';
 import type { ColumnsType } from 'antd/es/table';
 
 interface User {

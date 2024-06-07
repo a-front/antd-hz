@@ -93,7 +93,7 @@ If you want to use mixed themes or custom themes, you can use the following scri
 import fs from 'fs';
 import React from 'react';
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const outputPath = './public/antd.min.css';
 
@@ -176,7 +176,7 @@ If you're using a custom theme for your project, try baking in the following way
 
 ```tsx
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const cssText = extractStyle((node) => (
   <ConfigProvider
@@ -197,7 +197,7 @@ If you're using a mixed theme for your project, try baking in the following ways
 
 ```tsx
 import { extractStyle } from '@ant-design/static-style-extract';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const cssText = extractStyle((node) => (
   <>

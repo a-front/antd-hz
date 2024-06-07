@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { CheckOutlined, HighlightOutlined } from '@ant-design/icons';
-import { Radio, Typography } from 'antd';
+import { Radio, Typography } from 'antd-hz';
 
 const { Paragraph } = Typography;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Radio } from 'antd';
+import { Flex, Radio } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex vertical gap="middle">

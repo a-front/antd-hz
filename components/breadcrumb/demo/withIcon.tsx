@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
-import { Breadcrumb } from 'antd';
+import { Breadcrumb } from 'antd-hz';
 
 const App: React.FC = () => (
   <Breadcrumb

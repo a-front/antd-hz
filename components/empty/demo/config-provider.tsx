@@ -11,7 +11,7 @@ import {
   Table,
   Transfer,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 const customizeRenderEmpty = () => (
   <div style={{ textAlign: 'center' }}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Affix, Button } from 'antd';
+import { Affix, Button } from 'antd-hz';
 
 const containerStyle: React.CSSProperties = {
   width: '100%',

@@ -11,7 +11,7 @@ import {
   Row,
   Select,
   Tooltip,
-} from 'antd';
+} from 'antd-hz';
 
 const { Option } = Select;
 

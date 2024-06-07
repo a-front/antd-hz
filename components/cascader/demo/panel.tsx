@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Flex } from 'antd';
+import { Cascader, Flex } from 'antd-hz';
 import type { MultipleCascaderProps, SingleCascaderProps } from 'antd/es/cascader';
 
 interface Option {

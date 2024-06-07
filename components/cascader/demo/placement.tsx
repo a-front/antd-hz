@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { RadioChangeEvent } from 'antd';
-import { Cascader, Radio } from 'antd';
+import type { RadioChangeEvent } from 'antd-hz';
+import { Cascader, Radio } from 'antd-hz';
 
 interface Option {
   value: string;

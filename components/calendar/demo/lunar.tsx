@@ -1,6 +1,6 @@
 import React from 'react';
-import { Calendar, Col, Radio, Row, Select } from 'antd';
-import type { CalendarProps } from 'antd';
+import { Calendar, Col, Radio, Row, Select } from 'antd-hz';
+import type { CalendarProps } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

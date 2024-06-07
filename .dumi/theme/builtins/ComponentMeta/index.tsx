@@ -1,7 +1,7 @@
 import React from 'react';
 import { EditOutlined, GithubOutlined } from '@ant-design/icons';
-import type { GetProp } from 'antd';
-import { Descriptions, theme, Tooltip, Typography } from 'antd';
+import type { GetProp } from 'antd-hz';
+import { Descriptions, theme, Tooltip, Typography } from 'antd-hz';
 import { createStyles, css } from 'antd-style';
 import kebabCase from 'lodash/kebabCase';
 import CopyToClipboard from 'react-copy-to-clipboard';

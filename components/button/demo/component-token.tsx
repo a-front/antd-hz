@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Flex } from 'antd';
+import { Button, ConfigProvider, Flex } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

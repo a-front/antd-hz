@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Tree } from 'antd';
-import type { TreeDataNode, TreeProps } from 'antd';
+import { Tree } from 'antd-hz';
+import type { TreeDataNode, TreeProps } from 'antd-hz';
 
 const x = 3;
 const y = 2;

@@ -18,7 +18,7 @@ We could configure global token and component token for each component through t
 
 ```tsx
 import React from 'react';
-import { Checkbox, ConfigProvider, Radio } from 'antd';
+import { Checkbox, ConfigProvider, Radio } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

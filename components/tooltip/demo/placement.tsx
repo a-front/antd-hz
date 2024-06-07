@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Tooltip } from 'antd';
+import { Button, ConfigProvider, Tooltip } from 'antd-hz';
 
 const text = <span>prompt text</span>;
 

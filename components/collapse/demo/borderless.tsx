@@ -1,6 +1,6 @@
 import React from 'react';
-import type { CollapseProps } from 'antd';
-import { Collapse } from 'antd';
+import type { CollapseProps } from 'antd-hz';
+import { Collapse } from 'antd-hz';
 
 const text = (
   <p style={{ paddingLeft: 24 }}>

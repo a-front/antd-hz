@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Space, Tooltip } from 'antd';
+import { Button, Space, Tooltip } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space direction="vertical">

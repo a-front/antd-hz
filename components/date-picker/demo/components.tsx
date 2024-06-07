@@ -1,6 +1,6 @@
 import React from 'react';
-import type { DatePickerProps } from 'antd';
-import { Button, DatePicker, Flex, Slider, Space, Typography } from 'antd';
+import type { DatePickerProps } from 'antd-hz';
+import { Button, DatePicker, Flex, Slider, Space, Typography } from 'antd-hz';
 import dayjs from 'dayjs';
 import type { Dayjs } from 'dayjs';
 

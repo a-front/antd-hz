@@ -9,8 +9,8 @@ import {
 } from '@ant-design/cssinjs';
 import { HappyProvider } from '@ant-design/happy-work-theme';
 import { getSandpackCssText } from '@codesandbox/sandpack-react';
-import { theme as antdTheme, App } from 'antd';
-import type { MappingAlgorithm } from 'antd';
+import { theme as antdTheme, App } from 'antd-hz';
+import type { MappingAlgorithm } from 'antd-hz';
 import type { DirectionType, ThemeConfig } from 'antd/es/config-provider';
 import { createSearchParams, useOutlet, useSearchParams, useServerInsertedHTML } from 'dumi';
 

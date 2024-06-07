@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'antd';
+import { Slider } from 'antd-hz';
 
 function getGradientColor(percentage: number) {
   const startColor = [135, 208, 104];

@@ -132,7 +132,7 @@ export default defineConfig({
 
 ```tsx
 import React from 'react';
-import { Button, Popconfirm, Table } from 'antd';
+import { Button, Popconfirm, Table } from 'antd-hz';
 
 const ProductList: React.FC<{ products: { name: string }[]; onDelete: (id: string) => void }> = ({
   onDelete,

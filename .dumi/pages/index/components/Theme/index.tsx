@@ -7,7 +7,7 @@ import {
   QuestionCircleOutlined,
 } from '@ant-design/icons';
 import { TinyColor } from '@ctrl/tinycolor';
-import type { MenuProps, ThemeConfig } from 'antd';
+import type { MenuProps, ThemeConfig } from 'antd-hz';
 import {
   Breadcrumb,
   Button,
@@ -20,7 +20,7 @@ import {
   Radio,
   theme,
   Typography,
-} from 'antd';
+} from 'antd-hz';
 import { createStyles } from 'antd-style';
 import type { Color } from 'antd/es/color-picker';
 import { generateColor } from 'antd/es/color-picker/util';

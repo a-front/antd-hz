@@ -1,6 +1,6 @@
 import React from 'react';
-import type { MenuProps } from 'antd';
-import { Button, Dropdown } from 'antd';
+import type { MenuProps } from 'antd-hz';
+import { Button, Dropdown } from 'antd-hz';
 
 const items: MenuProps['items'] = [
   {

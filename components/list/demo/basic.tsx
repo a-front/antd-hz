@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, List } from 'antd';
+import { Avatar, List } from 'antd-hz';
 
 const data = [
   {

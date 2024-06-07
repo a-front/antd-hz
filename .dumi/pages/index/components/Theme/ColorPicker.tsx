@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ColorPicker, Flex, Input } from 'antd';
+import { ColorPicker, Flex, Input } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import type { Color } from 'antd/es/color-picker';
 import { generateColor } from 'antd/es/color-picker/util';

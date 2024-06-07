@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import * as React from 'react';
-import { Avatar, Divider, Empty, Skeleton, Tabs } from 'antd';
+import { Avatar, Divider, Empty, Skeleton, Tabs } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';
 import { FormattedMessage } from 'dumi';

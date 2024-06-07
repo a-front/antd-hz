@@ -11,7 +11,7 @@ import {
   Tag,
   Tour,
   Typography,
-} from 'antd';
+} from 'antd-hz';
 import { createStyles, css, useTheme } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

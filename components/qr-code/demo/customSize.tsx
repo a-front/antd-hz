@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
-import { Button, QRCode } from 'antd';
+import { Button, QRCode } from 'antd-hz';
 
 const MIN_SIZE = 48;
 const MAX_SIZE = 300;

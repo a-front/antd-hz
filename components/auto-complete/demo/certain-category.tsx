@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { AutoComplete, Input } from 'antd';
+import { AutoComplete, Input } from 'antd-hz';
 
 const renderTitle = (title: string) => (
   <span>

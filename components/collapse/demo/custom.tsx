@@ -1,8 +1,8 @@
 import type { CSSProperties } from 'react';
 import React from 'react';
 import { CaretRightOutlined } from '@ant-design/icons';
-import type { CollapseProps } from 'antd';
-import { Collapse, theme } from 'antd';
+import type { CollapseProps } from 'antd-hz';
+import { Collapse, theme } from 'antd-hz';
 
 const text = `
   A dog is a type of domesticated animal.

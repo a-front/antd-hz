@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect } from 'react';
-import { Button, message, Skeleton } from 'antd';
+import { Button, message, Skeleton } from 'antd-hz';
 import { enUS, zhCN } from 'antd-token-previewer';
 import type { ThemeConfig } from 'antd/es/config-provider/context';
 import { Helmet } from 'dumi';

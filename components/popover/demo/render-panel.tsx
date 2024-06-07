@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover } from 'antd';
+import { Popover } from 'antd-hz';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPopover } = Popover;
 

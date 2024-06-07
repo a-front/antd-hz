@@ -66,7 +66,7 @@ title: Ant Design of React
 
 ```jsx
 import React from 'react';
-import { DatePicker } from 'antd';
+import { DatePicker } from 'antd-hz';
 
 const App = () => {
   return <DatePicker />;

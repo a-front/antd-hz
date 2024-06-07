@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex, Progress } from 'antd';
-import type { ProgressProps } from 'antd';
+import { Flex, Progress } from 'antd-hz';
+import type { ProgressProps } from 'antd-hz';
 
 const twoColors: ProgressProps['strokeColor'] = {
   '0%': '#108ee9',

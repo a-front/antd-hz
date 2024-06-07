@@ -7,7 +7,7 @@ import {
   SortableContext,
   useSortable,
 } from '@dnd-kit/sortable';
-import { Flex, Tag } from 'antd';
+import { Flex, Tag } from 'antd-hz';
 
 interface Item {
   id: number;

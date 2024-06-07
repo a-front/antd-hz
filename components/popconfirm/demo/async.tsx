@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Popconfirm } from 'antd';
+import { Button, Popconfirm } from 'antd-hz';
 
 const App: React.FC = () => {
   const [open, setOpen] = useState(false);

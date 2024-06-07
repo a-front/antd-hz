@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress } from 'antd';
+import { Flex, Progress } from 'antd-hz';
 
 const Demo = () => (
   <Flex gap="middle" align="center">

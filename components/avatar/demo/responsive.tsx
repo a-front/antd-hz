@@ -1,6 +1,6 @@
 import React from 'react';
 import { AntDesignOutlined } from '@ant-design/icons';
-import { Avatar } from 'antd';
+import { Avatar } from 'antd-hz';
 
 const App: React.FC = () => (
   <Avatar

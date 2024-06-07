@@ -1,7 +1,7 @@
 import type { PropsWithChildren } from 'react';
 import React, { useEffect } from 'react';
 import { render } from '@testing-library/react';
-import type { ImageProps, MenuProps } from 'antd';
+import type { ImageProps, MenuProps } from 'antd-hz';
 import {
   AutoComplete,
   Cascader,
@@ -18,7 +18,7 @@ import {
   Tooltip,
   Tour,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 import { waitFakeTimer } from '../../../tests/utils';
 import type { ZIndexConsumer, ZIndexContainer } from '../hooks/useZIndex';

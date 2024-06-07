@@ -176,7 +176,7 @@ const RoutesPlugin = (api: IApi) => {
           antdStyle += text.replace(matchRegex, '$1');
         });
 
-        const cssFile = writeCSSFile('antd', antdStyle, antdStyle);
+        const cssFile = writeCSSFile('antd-hz', antdStyle, antdStyle);
         file.content = addLinkStyle(file.content, cssFile, true);
 
         // Insert antd cssVar to head

@@ -1,6 +1,6 @@
 import React from 'react';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import { Button, Popconfirm } from 'antd';
+import { Button, Popconfirm } from 'antd-hz';
 
 const App: React.FC = () => (
   <Popconfirm

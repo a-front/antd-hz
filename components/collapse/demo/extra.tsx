@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SettingOutlined } from '@ant-design/icons';
-import type { CollapseProps } from 'antd';
-import { Collapse, Select } from 'antd';
+import type { CollapseProps } from 'antd-hz';
+import { Collapse, Select } from 'antd-hz';
 
 const { Option } = Select;
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { CascaderProps } from 'antd';
+import type { CascaderProps } from 'antd-hz';
 import {
   AutoComplete,
   Button,
@@ -11,7 +11,7 @@ import {
   InputNumber,
   Row,
   Select,
-} from 'antd';
+} from 'antd-hz';
 
 const { Option } = Select;
 

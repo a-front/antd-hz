@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Space, Switch } from 'antd';
+import { Alert, Space, Switch } from 'antd-hz';
 
 const App: React.FC = () => {
   const [visible, setVisible] = useState(true);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress, Tooltip } from 'antd';
+import { Flex, Progress, Tooltip } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex gap="small" vertical>

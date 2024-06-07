@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Checkbox, Input, InputNumber, Select, Space, Tooltip } from 'antd';
+import { Button, Checkbox, Input, InputNumber, Select, Space, Tooltip } from 'antd-hz';
 
 const WrapperTooltip: React.FC<{ children?: React.ReactNode }> = (props) => (
   <Tooltip title="Thanks for using antd. Have a nice day!" {...props} />

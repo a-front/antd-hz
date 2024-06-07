@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'antd';
+import { Col, Row } from 'antd-hz';
 
 const App: React.FC = () => (
   <>

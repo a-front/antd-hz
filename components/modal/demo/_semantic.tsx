@@ -1,6 +1,6 @@
 import React from 'react';
-import type { ModalProps } from 'antd';
-import { Modal } from 'antd';
+import type { ModalProps } from 'antd-hz';
+import { Modal } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table, Typography } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table, Typography } from 'antd-hz';
+import type { TableColumnsType } from 'antd-hz';
 
 const { Text } = Typography;
 

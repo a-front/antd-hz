@@ -15,7 +15,7 @@ import {
   Switch,
   TreeSelect,
   Upload,
-} from 'antd';
+} from 'antd-hz';
 
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;

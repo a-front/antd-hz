@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { Breadcrumb, Layout, Menu, theme } from 'antd-hz';
 
 const { Header, Content, Footer } = Layout;
 

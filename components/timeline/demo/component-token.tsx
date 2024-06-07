@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Timeline } from 'antd';
+import { ConfigProvider, Timeline } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

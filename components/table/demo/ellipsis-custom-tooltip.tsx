@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table, Tooltip } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Table, Tooltip } from 'antd-hz';
+import type { TableColumnsType } from 'antd-hz';
 
 interface DataType {
   key: React.Key;

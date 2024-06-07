@@ -7,8 +7,8 @@ import {
   RadiusUpleftOutlined,
   RadiusUprightOutlined,
 } from '@ant-design/icons';
-import { Button, Divider, notification, Space } from 'antd';
-import type { NotificationArgsProps } from 'antd';
+import { Button, Divider, notification, Space } from 'antd-hz';
+import type { NotificationArgsProps } from 'antd-hz';
 
 type NotificationPlacement = NotificationArgsProps['placement'];
 

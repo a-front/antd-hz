@@ -10,7 +10,7 @@ import {
   Select,
   TimePicker,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 const { Option } = Select;
 

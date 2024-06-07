@@ -1,6 +1,6 @@
 import React from 'react';
-import { Calendar } from 'antd';
-import type { CalendarProps } from 'antd';
+import { Calendar } from 'antd-hz';
+import type { CalendarProps } from 'antd-hz';
 import type { Dayjs } from 'dayjs';
 
 const App: React.FC = () => {

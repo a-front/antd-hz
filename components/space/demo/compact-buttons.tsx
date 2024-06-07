@@ -11,7 +11,7 @@ import {
   StarOutlined,
   WarningOutlined,
 } from '@ant-design/icons';
-import { Button, Dropdown, Menu, Space, Tooltip } from 'antd';
+import { Button, Dropdown, Menu, Space, Tooltip } from 'antd-hz';
 
 const App: React.FC = () => (
   <div>

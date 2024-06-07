@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'antd-hz';
 
 const mockVal = (str: string, repeat = 1) => ({
   value: str.repeat(repeat),

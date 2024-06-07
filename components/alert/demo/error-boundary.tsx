@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Button } from 'antd';
+import { Alert, Button } from 'antd-hz';
 
 const { ErrorBoundary } = Alert;
 const ThrowError: React.FC = () => {

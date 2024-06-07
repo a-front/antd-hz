@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputNumber } from 'antd';
+import { InputNumber } from 'antd-hz';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalInputNumber } = InputNumber;

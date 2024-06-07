@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { DatePicker } from 'antd';
-import type { DatePickerProps } from 'antd';
+import { DatePicker } from 'antd-hz';
+import type { DatePickerProps } from 'antd-hz';
 import type { Dayjs } from 'dayjs';
 
 const { RangePicker } = DatePicker;

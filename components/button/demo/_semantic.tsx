@@ -1,6 +1,6 @@
 import React from 'react';
 import { AntDesignOutlined } from '@ant-design/icons';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

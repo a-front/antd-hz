@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { ConfigProvider, theme } from 'antd';
+import { ConfigProvider, theme } from 'antd-hz';
 import { createStyles, css } from 'antd-style';
 
 import useDark from '../../hooks/useDark';

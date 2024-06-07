@@ -1,9 +1,9 @@
 {
-  "name": "antd",
-  "version": "5.16.1",
-  "description": "An enterprise-class UI design language and React components implementation",
+  "name": "antd-hz",
+  "version": "0.0.1",
+  "description": "华卓科技基于 antd 5.0 定制的组件库",
   "keywords": [
-    "ant",
+    "ant-hz",
     "component",
     "components",
     "design",
@@ -23,7 +23,7 @@
 
   "license": "MIT",
   "contributors": [
-    "ant"
+    "ant-hz"
   ],
   "sideEffects": [
     "*.css"

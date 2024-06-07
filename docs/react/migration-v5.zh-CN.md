@@ -51,7 +51,7 @@ tag: Updated
   - Mentions 组件
 
   ```diff
-    import { Select } from 'antd';
+    import { Select } from 'antd-hz';
 
     const App: React.FC = () => (
       <Select
@@ -74,7 +74,7 @@ tag: Updated
   - Table 组件 `filterDropdownVisible` 变为 `filterDropdownOpen`。
 
   ```diff
-    import { Modal, Tag, Table, Slider } from 'antd';
+    import { Modal, Tag, Table, Slider } from 'antd-hz';
 
     const App: React.FC = () => {
       const [visible, setVisible] = useState(true);
@@ -123,7 +123,7 @@ tag: Updated
 - 移除 PageHeader 组件，移至 `@ant-design/pro-components` 中维护。
 
   ```diff
-  - import { PageHeader, Comment } from 'antd';
+  - import { PageHeader, Comment } from 'antd-hz';
   + import { Comment } from '@ant-design/compatible';
   + import { PageHeader } from '@ant-design/pro-layout';
 
@@ -140,8 +140,8 @@ tag: Updated
 - BackTop 组件在 `5.0.0` 中废弃，移至 FloatButton 悬浮按钮中。如需使用，可以从 FloatButton 中引入。
 
   ```diff
-  - import { BackTop } from 'antd';
-  + import { FloatButton } from 'antd';
+  - import { BackTop } from 'antd-hz';
+  + import { FloatButton } from 'antd-hz';
 
     const App: React.FC = () => (
       <>
@@ -292,7 +292,7 @@ import {
   defaultTheme,   // 默认主题
   darkTheme,      // 暗色主题
 } from '@ant-design/compatible';
-import { ConfigProvider, Button, Radio, Space } from 'antd';
+import { ConfigProvider, Button, Radio, Space } from 'antd-hz';
 
 export default () => (
   <ConfigProvider theme={defaultTheme}>
@@ -340,7 +340,7 @@ $ pnpm add antd-v5@npm:antd@5
 
 ```tsx
 import React from 'react';
-import { Button as Button4 } from 'antd'; // v4
+import { Button as Button4 } from 'antd-hz'; // v4
 import { Button as Button5 } from 'antd-v5'; // v5
 
 export default () => (

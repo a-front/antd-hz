@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Mentions } from 'antd';
+import { ConfigProvider, Mentions } from 'antd-hz';
 
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalMentions } = Mentions;
 

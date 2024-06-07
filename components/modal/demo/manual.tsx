@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'antd-hz';
 
 const App: React.FC = () => {
   const [modal, contextHolder] = Modal.useModal();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Transfer } from 'antd';
+import { Space, Transfer } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space direction="vertical">

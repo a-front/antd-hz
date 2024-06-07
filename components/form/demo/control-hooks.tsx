@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, Input, Select, Space } from 'antd';
+import { Button, Form, Input, Select, Space } from 'antd-hz';
 
 const { Option } = Select;
 

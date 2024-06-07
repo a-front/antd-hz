@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, TimePicker } from 'antd';
+import { Space, TimePicker } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space direction="vertical">

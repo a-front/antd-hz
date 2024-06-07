@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, TimePicker } from 'antd';
+import { Flex, TimePicker } from 'antd-hz';
 
 const { RangePicker } = TimePicker;
 

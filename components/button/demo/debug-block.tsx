@@ -1,6 +1,6 @@
 import React from 'react';
 import { DownloadOutlined } from '@ant-design/icons';
-import { Button, Form } from 'antd';
+import { Button, Form } from 'antd-hz';
 
 const App: React.FC = () => (
   <Form>

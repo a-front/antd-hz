@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popover, QRCode } from 'antd';
+import { Button, Popover, QRCode } from 'antd-hz';
 
 const App: React.FC = () => (
   <Popover

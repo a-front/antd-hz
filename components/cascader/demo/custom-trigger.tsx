@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cascader } from 'antd';
+import { Cascader } from 'antd-hz';
 import type { SingleCascaderProps } from 'antd/es/cascader';
 
 interface Option {

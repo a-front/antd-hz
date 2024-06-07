@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { TableProps } from 'antd';
-import { Form, Input, InputNumber, Popconfirm, Table, Typography } from 'antd';
+import type { TableProps } from 'antd-hz';
+import { Form, Input, InputNumber, Popconfirm, Table, Typography } from 'antd-hz';
 
 interface Item {
   key: string;

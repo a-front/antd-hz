@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CloseSquareFilled } from '@ant-design/icons';
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'antd-hz';
 
 const mockVal = (str: string, repeat = 1) => ({
   value: str.repeat(repeat),

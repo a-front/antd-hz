@@ -1,5 +1,5 @@
 import React from 'react';
-import { QRCode, Space } from 'antd';
+import { QRCode, Space } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space>

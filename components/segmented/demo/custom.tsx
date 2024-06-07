@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar, Flex, Segmented } from 'antd';
+import { Avatar, Flex, Segmented } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex gap="small" align="flex-start" vertical>

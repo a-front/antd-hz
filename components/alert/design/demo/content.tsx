@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Flex } from 'antd';
+import { Alert, Flex } from 'antd-hz';
 
 const Demo = () => (
   <Flex gap="middle" vertical style={{ maxWidth: 600 }}>

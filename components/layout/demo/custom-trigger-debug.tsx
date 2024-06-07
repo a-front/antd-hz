@@ -8,8 +8,8 @@ import {
   TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Button, Layout, Menu, theme } from 'antd';
+import type { MenuProps } from 'antd-hz';
+import { Button, Layout, Menu, theme } from 'antd-hz';
 
 const { Header, Sider, Content } = Layout;
 

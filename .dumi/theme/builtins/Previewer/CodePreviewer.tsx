@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from 'react';
 import { LinkOutlined, ThunderboltOutlined, UpOutlined } from '@ant-design/icons';
 import type { Project } from '@stackblitz/sdk';
 import stackblitzSdk from '@stackblitz/sdk';
-import { Alert, Badge, Flex, Tooltip } from 'antd';
+import { Alert, Badge, Flex, Tooltip } from 'antd-hz';
 import { createStyles, css } from 'antd-style';
 import classNames from 'classnames';
 import { FormattedMessage, useLiveDemo, useSiteData } from 'dumi';
@@ -249,7 +249,7 @@ const CodePreviewer: React.FC<AntdPreviewerProps> = (props) => {
     html,
     js: `const { createRoot } = ReactDOM;\n${jsx
       .replace(/import\s+(?:React,\s+)?{(\s+[^}]*\s+)}\s+from\s+'react'/, `const { $1 } = React;`)
-      .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'antd';/, 'const { $1 } = antd;')
+      .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'antd-hz';/, 'const { $1 } = antd;')
       .replace(/import\s+{(\s+[^}]*\s+)}\s+from\s+'@ant-design\/icons';/, 'const { $1 } = icons;')
       .replace("import moment from 'moment';", '')
       .replace("import React from 'react';", '')

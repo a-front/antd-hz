@@ -20,7 +20,7 @@ function exitProcess(code = 1) {
 
 async function checkVersion() {
   spinner.start('正在检查当前版本是否已经存在');
-  const { versions } = await fetch('http://registry.npmjs.org/antd').then((res: Response) =>
+  const { versions } = await fetch('http://registry.npmjs.org/antd-hz').then((res: Response) =>
     res.json(),
   );
   if (version in versions) {

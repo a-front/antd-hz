@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal } from 'antd';
+import { Button, Modal } from 'antd-hz';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(false);

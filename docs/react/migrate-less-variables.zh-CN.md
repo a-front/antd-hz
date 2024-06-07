@@ -18,7 +18,7 @@ title: 从 Less 变量到 Design Token
 
 ```tsx
 import React from 'react';
-import { Checkbox, ConfigProvider, Radio } from 'antd';
+import { Checkbox, ConfigProvider, Radio } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

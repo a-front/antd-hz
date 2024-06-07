@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Alert, Skeleton } from 'antd';
+import { Alert, Skeleton } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import type { IPreviewerProps } from 'dumi';
 

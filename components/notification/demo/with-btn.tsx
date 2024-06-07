@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification, Space } from 'antd';
+import { Button, notification, Space } from 'antd-hz';
 
 const close = () => {
   console.log(

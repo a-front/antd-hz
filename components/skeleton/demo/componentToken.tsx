@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Skeleton } from 'antd';
+import { ConfigProvider, Skeleton } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

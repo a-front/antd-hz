@@ -53,7 +53,7 @@ Modify `src/App.js`, import Button component from `antd`.
 
 ```jsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 const App = () => (
   <div className="App">

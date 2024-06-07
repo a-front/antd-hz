@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Menu } from 'antd';
+import type { MenuProps } from 'antd-hz';
+import { Menu } from 'antd-hz';
 
 const items: MenuProps['items'] = [
   {

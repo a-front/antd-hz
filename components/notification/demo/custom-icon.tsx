@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Button, notification } from 'antd';
+import { Button, notification } from 'antd-hz';
 
 const App: React.FC = () => {
   const [api, contextHolder] = notification.useNotification();

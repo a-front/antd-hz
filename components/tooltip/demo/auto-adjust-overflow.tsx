@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TooltipProps } from 'antd';
-import { Button, Tooltip, Typography } from 'antd';
+import type { TooltipProps } from 'antd-hz';
+import { Button, Tooltip, Typography } from 'antd-hz';
 
 const Block = React.forwardRef<HTMLDivElement, Partial<TooltipProps>>((props, ref) => (
   <div

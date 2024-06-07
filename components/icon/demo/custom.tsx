@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon, { HomeOutlined } from '@ant-design/icons';
-import { Space } from 'antd';
-import type { GetProps } from 'antd';
+import { Space } from 'antd-hz';
+import type { GetProps } from 'antd-hz';
 
 type CustomIconComponentProps = GetProps<typeof Icon>;
 

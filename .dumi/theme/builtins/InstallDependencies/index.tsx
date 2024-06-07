@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Tabs } from 'antd';
+import { ConfigProvider, Tabs } from 'antd-hz';
 import SourceCode from 'dumi/theme-default/builtins/SourceCode';
 import type { Tab } from 'rc-tabs/lib/interface';
 

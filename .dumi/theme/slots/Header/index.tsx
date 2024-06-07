@@ -1,6 +1,6 @@
 import React, { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { GithubOutlined, MenuOutlined } from '@ant-design/icons';
-import { Alert, Col, ConfigProvider, Popover, Row, Select } from 'antd';
+import { Alert, Col, ConfigProvider, Popover, Row, Select } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

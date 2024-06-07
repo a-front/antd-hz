@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Tabs } from 'antd';
+import { Tabs } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 import throttle from 'lodash/throttle';

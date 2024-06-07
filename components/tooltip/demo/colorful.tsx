@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Divider, Space, Tooltip } from 'antd';
+import { Button, Divider, Space, Tooltip } from 'antd-hz';
 
 const colors = [
   'pink',

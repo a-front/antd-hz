@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { CarouselProps, RadioChangeEvent } from 'antd';
-import { Carousel, Radio } from 'antd';
+import type { CarouselProps, RadioChangeEvent } from 'antd-hz';
+import { Carousel, Radio } from 'antd-hz';
 
 type DotPosition = CarouselProps['dotPosition'];
 

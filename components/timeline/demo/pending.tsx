@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Timeline } from 'antd';
+import { Button, Timeline } from 'antd-hz';
 
 const App: React.FC = () => {
   const [reverse, setReverse] = useState(false);

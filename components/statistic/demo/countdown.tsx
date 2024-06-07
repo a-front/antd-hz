@@ -1,6 +1,6 @@
 import React from 'react';
-import type { CountdownProps } from 'antd';
-import { Col, Row, Statistic } from 'antd';
+import type { CountdownProps } from 'antd-hz';
+import { Col, Row, Statistic } from 'antd-hz';
 
 const { Countdown } = Statistic;
 

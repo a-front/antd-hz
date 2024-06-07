@@ -13,7 +13,7 @@ This component provides a configuration to all React components underneath itsel
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 // ...
 const Demo: React.FC = () => (

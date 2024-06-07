@@ -1,6 +1,6 @@
 import React from 'react';
-import type { SliderSingleProps } from 'antd';
-import { Slider } from 'antd';
+import type { SliderSingleProps } from 'antd-hz';
+import { Slider } from 'antd-hz';
 
 const formatter: NonNullable<SliderSingleProps['tooltip']>['formatter'] = (value) => `${value}%`;
 

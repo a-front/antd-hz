@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input, Select, Space } from 'antd';
+import { Button, Input, Select, Space } from 'antd-hz';
 
 const style: React.CSSProperties = {
   width: 500,

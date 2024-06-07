@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'antd';
+import { Image } from 'antd-hz';
 
 const App: React.FC = () => (
   <Image.PreviewGroup

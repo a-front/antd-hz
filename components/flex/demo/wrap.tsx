@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Flex } from 'antd';
+import { Button, Flex } from 'antd-hz';
 
 const Demo: React.FC = () => (
   <Flex wrap="wrap" gap="small">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Tabs } from 'antd';
+import { Button, ConfigProvider, Tabs } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

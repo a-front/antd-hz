@@ -10,7 +10,7 @@ import {
   Select,
   Switch,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 type SizeType = Parameters<typeof Form>[0]['size'];
 

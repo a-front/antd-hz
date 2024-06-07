@@ -1,6 +1,6 @@
 import React from 'react';
-import type { InputRef } from 'antd';
-import { Button, Form, Input } from 'antd';
+import type { InputRef } from 'antd-hz';
+import { Button, Form, Input } from 'antd-hz';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

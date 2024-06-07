@@ -1,6 +1,6 @@
 import React from 'react';
-import type { InputNumberProps } from 'antd';
-import { InputNumber } from 'antd';
+import type { InputNumberProps } from 'antd-hz';
+import { InputNumber } from 'antd-hz';
 
 const onChange: InputNumberProps['onChange'] = (value) => {
   console.log('changed', value);

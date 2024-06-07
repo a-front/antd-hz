@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Flex, Tag } from 'antd';
+import { Divider, Flex, Tag } from 'antd-hz';
 
 const App: React.FC = () => (
   <>

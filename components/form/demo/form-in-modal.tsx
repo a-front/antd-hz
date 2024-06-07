@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import type { FormInstance } from 'antd';
-import { Button, Form, Input, Modal, Radio } from 'antd';
+import type { FormInstance } from 'antd-hz';
+import { Button, Form, Input, Modal, Radio } from 'antd-hz';
 
 interface Values {
   title?: string;

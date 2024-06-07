@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space, Switch, Tabs } from 'antd';
+import { Space, Switch, Tabs } from 'antd-hz';
 
 const App: React.FC = () => {
   const [inkBar, setInkBar] = React.useState(true);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FloatButton } from 'antd';
+import { FloatButton } from 'antd-hz';
 
 const App: React.FC = () => (
   <div style={{ height: '300vh', padding: 10 }}>

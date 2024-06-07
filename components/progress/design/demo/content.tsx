@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Progress, theme } from 'antd';
+import { Flex, Progress, theme } from 'antd-hz';
 
 const Demo = () => {
   const { token } = theme.useToken();

@@ -20,8 +20,8 @@ Available since `5.13.0`.
 Get the `ref` property definition of the component, which is very useful for components that are not directly exposed or child components.
 
 ```tsx
-import { Select } from 'antd';
-import type { GetRef } from 'antd';
+import { Select } from 'antd-hz';
+import type { GetRef } from 'antd-hz';
 
 type SelectRefType = GetRef<typeof Select>; // BaseSelectRef
 ```
@@ -31,8 +31,8 @@ type SelectRefType = GetRef<typeof Select>; // BaseSelectRef
 Get the `props` property definition of the component:
 
 ```tsx
-import { Checkbox } from 'antd';
-import type { GetProps } from 'antd';
+import { Checkbox } from 'antd-hz';
+import type { GetProps } from 'antd-hz';
 
 type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 ```
@@ -42,8 +42,8 @@ type CheckboxGroupType = GetProps<typeof Checkbox.Group>;
 Get the single `props` property definition of the component. It has encapsulated `NonNullable`, so you don't have to worry about being empty:
 
 ```tsx
-import { Select } from 'antd';
-import type { GetProp, SelectProps } from 'antd';
+import { Select } from 'antd-hz';
+import type { GetProp, SelectProps } from 'antd-hz';
 
 // Both of this can work
 type SelectOptionType1 = GetProp<SelectProps, 'options'>[number];

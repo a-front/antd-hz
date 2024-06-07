@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Divider } from 'antd';
+import { ConfigProvider, Divider } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

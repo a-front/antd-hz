@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs } from 'antd';
+import { Tabs } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 const useStyle = createStyles(({ token, css }) => {

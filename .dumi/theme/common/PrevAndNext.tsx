@@ -1,7 +1,7 @@
 import type { ReactElement } from 'react';
 import React, { useContext, useMemo } from 'react';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
+import type { MenuProps } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import type { MenuItemType } from 'antd/es/menu/hooks/useItems';
 import classNames from 'classnames';

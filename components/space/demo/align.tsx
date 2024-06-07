@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Space } from 'antd';
+import { Button, Space } from 'antd-hz';
 
 const App: React.FC = () => (
   <div className="space-align-container">

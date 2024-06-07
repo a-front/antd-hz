@@ -58,7 +58,7 @@ This document will help you upgrade from antd `4.x` version to antd `5.x` versio
   - Mentions
 
   ```diff
-    import { Select } from 'antd';
+    import { Select } from 'antd-hz';
 
     const App: React.FC = () => (
       <Select
@@ -81,7 +81,7 @@ This document will help you upgrade from antd `4.x` version to antd `5.x` versio
   - Table `filterDropdownVisible` changed to `filterDropdownOpen`.
 
   ```diff
-    import { Modal, Tag, Table, Slider } from 'antd';
+    import { Modal, Tag, Table, Slider } from 'antd-hz';
 
     const App: React.FC = () => {
       const [visible, setVisible] = useState(true);
@@ -130,7 +130,7 @@ This document will help you upgrade from antd `4.x` version to antd `5.x` versio
 - Move PageHeader component into `@ant-design/pro-components`.
 
   ```diff
-  - import { PageHeader, Comment } from 'antd';
+  - import { PageHeader, Comment } from 'antd-hz';
   + import { Comment } from '@ant-design/compatible';
   + import { PageHeader } from '@ant-design/pro-layout';
 
@@ -147,8 +147,8 @@ This document will help you upgrade from antd `4.x` version to antd `5.x` versio
 - BackTop is deprecated in `5.0.0`, and is merged into FloatButton.
 
   ```diff
-  - import { BackTop } from 'antd';
-  + import { FloatButton } from 'antd';
+  - import { BackTop } from 'antd-hz';
+  + import { FloatButton } from 'antd-hz';
 
     const App: React.FC = () => (
       <div>
@@ -301,7 +301,7 @@ import {
   defaultTheme,   // Default theme
   darkTheme,      // Dark theme
 } from '@ant-design/compatible';
-import { ConfigProvider, Button, Radio, Space } from 'antd';
+import { ConfigProvider, Button, Radio, Space } from 'antd-hz';
 
 export default () => (
   <ConfigProvider theme={defaultTheme}>
@@ -349,7 +349,7 @@ Now, antd in your project is still v4, and antd-v5 is v5.
 
 ```tsx
 import React from 'react';
-import { Button as Button4 } from 'antd'; // v4
+import { Button as Button4 } from 'antd-hz'; // v4
 import { Button as Button5 } from 'antd-v5'; // v5
 
 export default () => (

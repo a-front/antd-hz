@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { Carousel, Typography } from 'antd';
+import { Carousel, Typography } from 'antd-hz';
 import { createStyles, css, useTheme } from 'antd-style';
 
 import { getCarouselStyle } from '../util';

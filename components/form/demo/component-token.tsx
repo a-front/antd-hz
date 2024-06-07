@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Form, Input } from 'antd';
+import { ConfigProvider, Form, Input } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

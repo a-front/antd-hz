@@ -1,6 +1,6 @@
 import React from 'react';
-import type { SelectProps } from 'antd';
-import { Select, Space } from 'antd';
+import type { SelectProps } from 'antd-hz';
+import { Select, Space } from 'antd-hz';
 
 const handleChange = (value: string[]) => {
   console.log(`selected ${value}`);

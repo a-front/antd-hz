@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { GetProp, TreeSelectProps } from 'antd';
-import { TreeSelect } from 'antd';
+import type { GetProp, TreeSelectProps } from 'antd-hz';
+import { TreeSelect } from 'antd-hz';
 
 type DefaultOptionType = GetProp<TreeSelectProps, 'treeData'>[number];
 

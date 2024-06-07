@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppstoreOutlined, BarsOutlined } from '@ant-design/icons';
-import { Segmented } from 'antd';
+import { Segmented } from 'antd-hz';
 
 const Demo: React.FC = () => (
   <Segmented

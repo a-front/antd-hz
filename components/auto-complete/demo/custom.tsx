@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AutoComplete, Input } from 'antd';
+import { AutoComplete, Input } from 'antd-hz';
 
 const { TextArea } = Input;
 

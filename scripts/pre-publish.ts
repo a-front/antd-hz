@@ -68,7 +68,6 @@ const runPrePublish = async () => {
   const git = simpleGit();
   const octokit = new Octokit({ auth: process.env.GITHUB_ACCESS_TOKEN });
   const { current: currentBranch } = await git.branch();
-
   spinner.start(`正在拉取远程分支 ${currentBranch}`);
   await git.pull('origin', currentBranch);
   spinner.succeed(`成功拉取远程分支 ${currentBranch}`);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, InputNumber } from 'antd';
+import { Button, InputNumber } from 'antd-hz';
 
 const App: React.FC = () => {
   const [disabled, setDisabled] = useState(true);

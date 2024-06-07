@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Form, Input, Typography } from 'antd';
+import { Alert, Form, Input, Typography } from 'antd-hz';
 
 const App: React.FC = () => {
   const [form] = Form.useForm();

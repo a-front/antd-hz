@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Flex, Tag, theme } from 'antd';
+import { Divider, Flex, Tag, theme } from 'antd-hz';
 
 const App: React.FC = () => {
   const { token } = theme.useToken();

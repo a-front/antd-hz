@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Flex, Typography } from 'antd';
+import { Button, Flex, Typography } from 'antd-hz';
 import { createStyles, css, useTheme } from 'antd-style';
 import classNames from 'classnames';
 import { Link, useLocation } from 'dumi';

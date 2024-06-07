@@ -54,7 +54,7 @@ Modify `src/App.js`, import Button component from `antd`.
 
 ```tsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 const App: React.FC = () => (
   <div className="App">
@@ -73,7 +73,7 @@ Ref to the [Customize Theme documentation](/docs/react/customize-theme). Modify 
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider theme={{ token: { colorPrimary: '#00b96b' } }}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { CloseSquareFilled } from '@ant-design/icons';
-import { Alert, Space } from 'antd';
+import { Alert, Space } from 'antd-hz';
 
 const onClose = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   console.log(e, 'I was closed.');

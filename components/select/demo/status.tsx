@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, Space } from 'antd';
+import { Select, Space } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space direction="vertical" style={{ width: '100%' }}>

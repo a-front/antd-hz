@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'antd';
+import { Switch } from 'antd-hz';
 
 const App: React.FC = () => (
   <>

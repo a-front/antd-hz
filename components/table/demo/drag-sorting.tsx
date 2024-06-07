@@ -9,7 +9,7 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Table } from 'antd';
+import { Table } from 'antd-hz';
 import type { ColumnsType } from 'antd/es/table';
 
 interface DataType {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AutoComplete } from 'antd';
+import { AutoComplete } from 'antd-hz';
 import type { DefaultOptionType } from 'antd/es/select';
 
 const App: React.FC = () => {

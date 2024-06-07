@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Transfer } from 'antd';
-import type { TransferProps } from 'antd';
+import { Transfer } from 'antd-hz';
+import type { TransferProps } from 'antd-hz';
 
 interface RecordType {
   key: string;

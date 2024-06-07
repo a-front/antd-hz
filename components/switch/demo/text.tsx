@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
-import { Space, Switch } from 'antd';
+import { Space, Switch } from 'antd-hz';
 
 const App: React.FC = () => (
   <Space direction="vertical">

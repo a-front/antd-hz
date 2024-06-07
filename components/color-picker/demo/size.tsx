@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorPicker, Space } from 'antd';
+import { ColorPicker, Space } from 'antd-hz';
 
 const Demo = () => (
   <Space>

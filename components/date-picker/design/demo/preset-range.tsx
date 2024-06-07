@@ -1,6 +1,6 @@
 import React from 'react';
-import { DatePicker } from 'antd';
-import type { TimeRangePickerProps } from 'antd';
+import { DatePicker } from 'antd-hz';
+import type { TimeRangePickerProps } from 'antd-hz';
 import dayjs from 'dayjs';
 
 const { _InternalRangePanelDoNotUseOrYouWillBeFired: PureRangePicker } = DatePicker;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Radio } from 'antd';
+import { ConfigProvider, Radio } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider theme={{ token: { wireframe: true } }}>

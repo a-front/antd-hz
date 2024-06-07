@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, ConfigProvider } from 'antd';
+import { Carousel, ConfigProvider } from 'antd-hz';
 
 /** Test usage. Do not use in your production. */
 const contentStyle: React.CSSProperties = {

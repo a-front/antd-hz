@@ -1,6 +1,6 @@
 import React from 'react';
-import { Badge, Descriptions } from 'antd';
-import type { DescriptionsProps } from 'antd';
+import { Badge, Descriptions } from 'antd-hz';
+import type { DescriptionsProps } from 'antd-hz';
 
 const items: DescriptionsProps['items'] = [
   {

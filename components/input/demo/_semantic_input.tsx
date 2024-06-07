@@ -1,6 +1,6 @@
 import React from 'react';
 import { EditOutlined, UserOutlined } from '@ant-design/icons';
-import { Input } from 'antd';
+import { Input } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

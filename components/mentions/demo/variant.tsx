@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Mentions } from 'antd';
+import { Flex, Mentions } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex vertical gap={12}>

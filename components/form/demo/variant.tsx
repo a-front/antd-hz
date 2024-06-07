@@ -9,7 +9,7 @@ import {
   Mentions,
   Select,
   TreeSelect,
-} from 'antd';
+} from 'antd-hz';
 
 const { RangePicker } = DatePicker;
 

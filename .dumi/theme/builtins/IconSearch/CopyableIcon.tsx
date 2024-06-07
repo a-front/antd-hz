@@ -2,7 +2,7 @@ import * as React from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import classNames from 'classnames';
 import * as AntdIcons from '@ant-design/icons';
-import { Badge, message } from 'antd';
+import { Badge, message } from 'antd-hz';
 import type { ThemeType } from './index';
 
 const allIcons: {

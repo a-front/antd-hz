@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cascader, Select, Space, TreeSelect, Typography } from 'antd';
+import { Cascader, Select, Space, TreeSelect, Typography } from 'antd-hz';
 
 const options = [
   { value: 'long', label: <Typography>long, long, long piece of text</Typography> },

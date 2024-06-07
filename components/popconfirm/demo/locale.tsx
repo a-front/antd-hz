@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Popconfirm } from 'antd';
+import { Button, Popconfirm } from 'antd-hz';
 
 const App: React.FC = () => (
   <Popconfirm

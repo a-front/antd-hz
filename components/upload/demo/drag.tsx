@@ -1,7 +1,7 @@
 import React from 'react';
 import { InboxOutlined } from '@ant-design/icons';
-import type { UploadProps } from 'antd';
-import { message, Upload } from 'antd';
+import type { UploadProps } from 'antd-hz';
+import { message, Upload } from 'antd-hz';
 
 const { Dragger } = Upload;
 

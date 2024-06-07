@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from 'antd';
+import { Slider } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

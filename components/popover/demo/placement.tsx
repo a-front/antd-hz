@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ConfigProvider, Popover } from 'antd';
+import { Button, ConfigProvider, Popover } from 'antd-hz';
 
 const text = <span>Title</span>;
 

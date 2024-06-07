@@ -1,6 +1,6 @@
 import React from 'react';
-import { Mentions } from 'antd';
-import type { GetProp, MentionProps } from 'antd';
+import { Mentions } from 'antd-hz';
+import type { GetProp, MentionProps } from 'antd-hz';
 
 type MentionsOptionProps = GetProp<MentionProps, 'options'>[number];
 

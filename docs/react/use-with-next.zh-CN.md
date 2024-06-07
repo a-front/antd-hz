@@ -35,7 +35,7 @@ $ npm run dev
 
 ```tsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 const Home = () => (
   <div className="App">
@@ -146,7 +146,7 @@ export default MyDocument;
 
 ```ts
 // theme/themeConfig.ts
-import type { ThemeConfig } from 'antd';
+import type { ThemeConfig } from 'antd-hz';
 
 const theme: ThemeConfig = {
   token: {
@@ -162,7 +162,7 @@ export default theme;
 
 ```tsx
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 import type { AppProps } from 'next/app';
 
 import theme from './theme/themeConfig';
@@ -180,7 +180,7 @@ export default App;
 
 ```tsx
 import React from 'react';
-import { Button } from 'antd';
+import { Button } from 'antd-hz';
 
 const Home = () => (
   <div className="App">

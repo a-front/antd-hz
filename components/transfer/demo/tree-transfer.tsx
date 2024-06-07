@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { theme, Transfer, Tree } from 'antd';
-import type { GetProp, TransferProps, TreeDataNode } from 'antd';
+import { theme, Transfer, Tree } from 'antd-hz';
+import type { GetProp, TransferProps, TreeDataNode } from 'antd-hz';
 
 type TransferItem = GetProp<TransferProps, 'dataSource'>[number];
 

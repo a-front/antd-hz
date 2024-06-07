@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import React, { Suspense } from 'react';
-import { Skeleton } from 'antd';
+import { Skeleton } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 import type { BehaviorMapProps } from './BehaviorMap';

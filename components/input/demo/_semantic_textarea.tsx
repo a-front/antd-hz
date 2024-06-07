@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input } from 'antd';
+import { Input } from 'antd-hz';
 
 import SemanticPreview from '../../../.dumi/components/SemanticPreview';
 import useLocale from '../../../.dumi/hooks/useLocale';

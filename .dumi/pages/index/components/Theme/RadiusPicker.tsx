@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, InputNumber, Slider } from 'antd';
+import { Flex, InputNumber, Slider } from 'antd-hz';
 
 export interface RadiusPickerProps {
   id?: string;

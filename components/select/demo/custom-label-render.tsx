@@ -1,6 +1,6 @@
 import React from 'react';
-import { Select } from 'antd';
-import type { SelectProps } from 'antd';
+import { Select } from 'antd-hz';
+import type { SelectProps } from 'antd-hz';
 
 type LabelRender = SelectProps['labelRender'];
 

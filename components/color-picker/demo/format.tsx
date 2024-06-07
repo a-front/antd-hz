@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ColorPicker, Space } from 'antd';
-import type { ColorPickerProps, GetProp } from 'antd';
+import { ColorPicker, Space } from 'antd-hz';
+import type { ColorPickerProps, GetProp } from 'antd-hz';
 
 type Color = GetProp<ColorPickerProps, 'value'>;
 type Format = GetProp<ColorPickerProps, 'format'>;

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import * as React from 'react';
-import { Flex } from 'antd';
+import { Flex } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import classNames from 'classnames';
 

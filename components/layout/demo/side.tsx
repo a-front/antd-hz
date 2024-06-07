@@ -6,8 +6,8 @@ import {
   TeamOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import type { MenuProps } from 'antd-hz';
+import { Breadcrumb, Layout, Menu, theme } from 'antd-hz';
 
 const { Header, Content, Footer, Sider } = Layout;
 

@@ -583,9 +583,9 @@ const genPositionStyle: GenerateStyle<TabsToken> = (token: TabsToken): CSSObject
 const genSizeStyle: GenerateStyle<TabsToken> = (token: TabsToken): CSSObject => {
   const {
     componentCls,
-    cardPaddingSM,
+    // cardPaddingSM,
     cardPaddingLG,
-    horizontalItemPaddingSM,
+    // horizontalItemPaddingSM,
     horizontalItemPaddingLG,
   } = token;
   return {
@@ -663,7 +663,7 @@ const genTabStyle: GenerateStyle<TabsToken, CSSObject> = (token: TabsToken) => {
     itemHoverColor,
     iconCls,
     tabsHorizontalItemMargin,
-    horizontalItemPadding,
+    // horizontalItemPadding,
     itemSelectedColor,
     itemColor,
   } = token;

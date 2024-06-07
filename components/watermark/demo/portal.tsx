@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Drawer, Flex, Modal, Watermark } from 'antd';
+import { Button, Drawer, Flex, Modal, Watermark } from 'antd-hz';
 
 const style: React.CSSProperties = {
   height: 300,

@@ -6,8 +6,8 @@ import {
   MailOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import { Divider, Menu, Switch } from 'antd';
-import type { GetProp, MenuProps } from 'antd';
+import { Divider, Menu, Switch } from 'antd-hz';
+import type { GetProp, MenuProps } from 'antd-hz';
 
 type MenuTheme = GetProp<MenuProps, 'theme'>;
 type MenuItem = GetProp<MenuProps, 'items'>[number];

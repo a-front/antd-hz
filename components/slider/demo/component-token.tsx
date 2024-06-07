@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Slider } from 'antd';
+import { ConfigProvider, Slider } from 'antd-hz';
 
 const style: React.CSSProperties = {
   display: 'inline-block',

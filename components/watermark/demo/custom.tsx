@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
-import { ColorPicker, Flex, Form, Input, InputNumber, Slider, Typography, Watermark } from 'antd';
-import type { ColorPickerProps, GetProp, WatermarkProps } from 'antd';
+import {
+  ColorPicker,
+  Flex,
+  Form,
+  Input,
+  InputNumber,
+  Slider,
+  Typography,
+  Watermark,
+} from 'antd-hz';
+import type { ColorPickerProps, GetProp, WatermarkProps } from 'antd-hz';
 
 type Color = GetProp<ColorPickerProps, 'color'>;
 

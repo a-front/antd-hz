@@ -1,6 +1,6 @@
 import React from 'react';
-import type { StepsProps } from 'antd';
-import { Avatar, List, Steps } from 'antd';
+import type { StepsProps } from 'antd-hz';
+import { Avatar, List, Steps } from 'antd-hz';
 
 const data = [
   {

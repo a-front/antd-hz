@@ -1,6 +1,6 @@
 import React from 'react';
 import { AudioOutlined } from '@ant-design/icons';
-import { Input, Space } from 'antd';
+import { Input, Space } from 'antd-hz';
 import type { SearchProps } from 'antd/es/input/Search';
 
 const { Search } = Input;

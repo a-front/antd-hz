@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, QRCode } from 'antd';
+import { Button, QRCode } from 'antd-hz';
 
 const downloadQRCode = () => {
   const canvas = document.getElementById('myqrcode')?.querySelector<HTMLCanvasElement>('canvas');

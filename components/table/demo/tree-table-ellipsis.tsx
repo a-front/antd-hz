@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Space, Switch, Table } from 'antd';
-import type { TableColumnsType } from 'antd';
+import { Space, Switch, Table } from 'antd-hz';
+import type { TableColumnsType } from 'antd-hz';
 
 interface DataType {
   key: React.ReactNode;

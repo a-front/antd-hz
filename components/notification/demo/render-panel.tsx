@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, notification } from 'antd';
+import { Button, notification } from 'antd-hz';
 
 /** Test usage. Do not use in your production. */
 const { _InternalPanelDoNotUseOrYouWillBeFired: InternalPanel } = notification;

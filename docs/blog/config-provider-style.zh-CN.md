@@ -62,7 +62,7 @@ Design Token 提供了非常强大的拓展能力，但是同样它也有限制�
 ```tsx
 // This is an example of using `antd-style`, you can use any CSS-in-JS library.
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 const useButtonStyle = () => {

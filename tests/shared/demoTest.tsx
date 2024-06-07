@@ -2,7 +2,7 @@
 import path from 'path';
 import * as React from 'react';
 import { createCache, StyleProvider } from '@ant-design/cssinjs';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 import { globSync } from 'glob';
 import kebabCase from 'lodash/kebabCase';
 import { renderToString } from 'react-dom/server';

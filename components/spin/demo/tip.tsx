@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Flex, Spin } from 'antd';
+import { Alert, Flex, Spin } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex gap="small" vertical>

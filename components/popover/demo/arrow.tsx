@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { Button, ConfigProvider, Popover, Segmented } from 'antd';
+import { Button, ConfigProvider, Popover, Segmented } from 'antd-hz';
 
 const text = <span>Title</span>;
 

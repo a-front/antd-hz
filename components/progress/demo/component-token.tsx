@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, Progress, Space } from 'antd';
+import { ConfigProvider, Progress, Space } from 'antd-hz';
 
 const App: React.FC = () => (
   <ConfigProvider

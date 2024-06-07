@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Button, ConfigProvider, Flex, Typography } from 'antd';
+import { Button, ConfigProvider, Flex, Typography } from 'antd-hz';
 import { createStyles } from 'antd-style';
 import { Link, useLocation } from 'dumi';
 

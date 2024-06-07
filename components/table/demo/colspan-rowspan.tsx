@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table } from 'antd';
-import type { TableProps } from 'antd';
+import { Table } from 'antd-hz';
+import type { TableProps } from 'antd-hz';
 
 interface DataType {
   key: string;

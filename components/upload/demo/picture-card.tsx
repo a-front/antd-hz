@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PlusOutlined } from '@ant-design/icons';
-import { Image, Upload } from 'antd';
-import type { GetProp, UploadFile, UploadProps } from 'antd';
+import { Image, Upload } from 'antd-hz';
+import type { GetProp, UploadFile, UploadProps } from 'antd-hz';
 
 type FileType = Parameters<GetProp<UploadProps, 'beforeUpload'>>[0];
 

@@ -11,8 +11,8 @@ import {
   Space,
   Table,
   Tabs,
-} from 'antd';
-import type { ConfigProviderProps } from 'antd';
+} from 'antd-hz';
+import type { ConfigProviderProps } from 'antd-hz';
 
 type SizeType = ConfigProviderProps['componentSize'];
 

@@ -1,6 +1,6 @@
 import { FormattedMessage } from 'dumi';
 import React, { useMemo, useState } from 'react';
-import { Col, ColorPicker, Row } from 'antd';
+import { Col, ColorPicker, Row } from 'antd-hz';
 import ColorPatterns from './ColorPatterns';
 import useLocale from '../../../hooks/useLocale';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Pagination } from 'antd';
+import { Flex, Pagination } from 'antd-hz';
 
 const App: React.FC = () => (
   <Flex vertical gap="middle">

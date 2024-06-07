@@ -62,7 +62,7 @@ So our extended theme also needs the ability to consume `prefixCls`. In CSS-in-J
 ```tsx
 // This is an example of using `antd-style`, you can use any CSS-in-JS library.
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd-hz';
 import { createStyles } from 'antd-style';
 
 const useButtonStyle = () => {
