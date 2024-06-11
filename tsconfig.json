@@ -3,10 +3,10 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "antd": ["components/index.ts"],
-      "antd/es/*": ["components/*"],
-      "antd/lib/*": ["components/*"],
-      "antd/locale/*": ["components/locale/*"]
+      "antd-hz": ["components/index.ts"],
+      "antd-hz/es/*": ["components/*"],
+      "antd-hz/lib/*": ["components/*"],
+      "antd-hz/locale/*": ["components/locale/*"]
     },
     "strict": true,
     "strictNullChecks": true,

@@ -2,10 +2,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "antd": ["es"],
-      "antd/es/*": ["es/*"],
-      "antd/lib/*": ["lib/*"],
-      "antd/locale/*": ["locale/*"]
+      "antd-hz": ["es"],
+      "antd-hz/es/*": ["es/*"],
+      "antd-hz/lib/*": ["lib/*"],
+      "antd-hz/locale/*": ["locale/*"]
     }
   },
   "include": ["components/*/demo/*.tsx"],
